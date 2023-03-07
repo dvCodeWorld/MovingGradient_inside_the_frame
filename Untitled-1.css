@@ -1,0 +1,5138 @@
+/* <style data-href="/styles.5202cfd0148dfc23475d.css" id="gatsby-global-css"> */
+
+html {
+    -webkit-text-size-adjust: 100%;
+    line-height: 1.15
+}
+
+body {
+    margin: 0
+}
+
+main {
+    display: block
+}
+
+h1 {
+    font-size: 2em;
+    margin: .67em 0
+}
+
+hr {
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible
+}
+
+pre {
+    font-family: monospace, monospace;
+    font-size: 1em
+}
+
+a {
+    background-color: transparent
+}
+
+abbr[title] {
+    border-bottom: none;
+    text-decoration: underline;
+    -webkit-text-decoration: underline dotted;
+    text-decoration: underline dotted
+}
+
+b,
+strong {
+    font-weight: bolder
+}
+
+code,
+kbd,
+samp {
+    font-family: monospace, monospace;
+    font-size: 1em
+}
+
+small {
+    font-size: 80%
+}
+
+sub,
+sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline
+}
+
+sub {
+    bottom: -.25em
+}
+
+sup {
+    top: -.5em
+}
+
+img {
+    border-style: none
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0
+}
+
+button,
+input {
+    overflow: visible
+}
+
+button,
+select {
+    text-transform: none
+}
+
+[type=button],
+[type=reset],
+[type=submit],
+button {
+    -webkit-appearance: button
+}
+
+[type=button]::-moz-focus-inner,
+[type=reset]::-moz-focus-inner,
+[type=submit]::-moz-focus-inner,
+button::-moz-focus-inner {
+    border-style: none;
+    padding: 0
+}
+
+[type=button]:-moz-focusring,
+[type=reset]:-moz-focusring,
+[type=submit]:-moz-focusring,
+button:-moz-focusring {
+    outline: 1px dotted ButtonText
+}
+
+fieldset {
+    padding: .35em .75em .625em
+}
+
+legend {
+    box-sizing: border-box;
+    color: inherit;
+    display: table;
+    max-width: 100%;
+    padding: 0;
+    white-space: normal
+}
+
+progress {
+    vertical-align: baseline
+}
+
+textarea {
+    overflow: auto
+}
+
+[type=checkbox],
+[type=radio] {
+    box-sizing: border-box;
+    padding: 0
+}
+
+[type=number]::-webkit-inner-spin-button,
+[type=number]::-webkit-outer-spin-button {
+    height: auto
+}
+
+[type=search] {
+    -webkit-appearance: textfield;
+    outline-offset: -2px
+}
+
+[type=search]::-webkit-search-decoration {
+    -webkit-appearance: none
+}
+
+::-webkit-file-upload-button {
+    -webkit-appearance: button;
+    font: inherit
+}
+
+details {
+    display: block
+}
+
+summary {
+    display: list-item
+}
+
+[hidden],
+template {
+    display: none
+}
+
+*,
+body,
+html {
+    -webkit-text-size-adjust: none;
+    box-sizing: border-box;
+    margin: 0;
+    outline: none;
+    padding: 0
+}
+
+body {
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: auto;
+    -moz-text-size-adjust: auto;
+    text-size-adjust: auto;
+    background-color: #fff;
+    color: #000;
+    font-family: Inter, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    height: 100vh;
+    line-height: 31px;
+    margin: 0 auto;
+    overflow-x: hidden
+}
+
+.overflow {
+    height: 100vh;
+    overflow: hidden
+}
+
+.overflow-x {
+    overflow-x: hidden
+}
+
+p {
+    color: #000;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    margin: 0 0 20px
+}
+
+@media(max-width:767px) {
+    p {
+        font-size: 16px;
+        line-height: 27px
+    }
+}
+
+.h1,
+.h2,
+.h3,
+h1,
+h2,
+h3,
+h4,
+input,
+option,
+select {
+    font-family: Inter, sans-serif
+}
+
+.h1,
+.h2,
+.h3,
+h1,
+h2,
+h3,
+h4 {
+    color: #000;
+    font-weight: 700;
+    margin: 0 0 25px
+}
+
+.h1,
+h1 {
+    font-family: Domine, serif;
+    font-size: 78px;
+    font-weight: 700;
+    letter-spacing: -2.496px;
+    line-height: 75px;
+    margin: 0 0 30px
+}
+
+@media(max-width:767px) {
+
+    .h1,
+    h1 {
+        font-size: 50px
+    }
+}
+
+.h2,
+h2 {
+    font-size: 50px;
+    line-height: 1.2
+}
+
+@media(max-width:979px) {
+
+    .h2,
+    h2 {
+        font-size: 40px
+    }
+}
+
+@media(max-width:767px) {
+
+    .h2,
+    h2 {
+        font-size: 30px
+    }
+}
+
+.h3,
+h3 {
+    font-size: 38px;
+    line-height: 1.2
+}
+
+@media(max-width:979px) {
+
+    .h3,
+    h3 {
+        font-size: 30px;
+        line-height: 1.333
+    }
+}
+
+@media(max-width:767px) {
+
+    .h3,
+    h3 {
+        font-size: 24px
+    }
+}
+
+.h4,
+h4 {
+    color: #000;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.22
+}
+
+@media(max-width:979px) {
+
+    .h4,
+    h4 {
+        font-size: 18px
+    }
+}
+
+.h5,
+h5 {
+    color: #000;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.22;
+    margin-bottom: 20px
+}
+
+@media(max-width:979px) {
+
+    .h5,
+    h5 {
+        font-size: 16px
+    }
+}
+
+a {
+    color: #000;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all .3s
+}
+
+img,
+video {
+    max-width: 100%;
+    vertical-align: middle
+}
+
+a img {
+    pointer-events: all
+}
+
+a,
+a:focus,
+a:hover {
+    outline: none
+}
+
+ol,
+ul {
+    font-size: 18px;
+    line-height: 1.222;
+    padding-left: 22px
+}
+
+li {
+    margin-bottom: .75em
+}
+
+hr {
+    border-color: #000;
+    margin: 25px 0;
+    opacity: .1
+}
+
+@media(max-width:767px) {
+    .text-center-mob {
+        text-align: center
+    }
+}
+
+label {
+    display: block;
+    font-size: 18px;
+    line-height: 35px;
+    margin-top: 20px
+}
+
+input[type=email],
+input[type=text],
+textarea {
+    border-radius: 2px;
+    box-shadow: none;
+    display: block;
+    font-family: inherit;
+    font-size: .85em;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    outline: none;
+    padding: 10px;
+    width: 100%
+}
+
+input[type=email]:focus,
+input[type=email]:hover,
+input[type=text]:focus,
+input[type=text]:hover,
+textarea:focus,
+textarea:hover {
+    outline: none
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:active,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:hover {
+    box-shadow: 0 0 0 transparent !important
+}
+
+button {
+    cursor: pointer
+}
+
+.button-unstyled {
+    background: transparent;
+    background-color: transparent;
+    border: 0;
+    box-shadow: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none
+}
+
+.button-unstyled:focus {
+    outline: 0
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1220px;
+    padding: 0 15px
+}
+
+@media(max-width:1200px) {
+    .container {
+        max-width: 960px
+    }
+}
+
+@media(max-width:767px) {
+    .container {
+        padding: 0 20px;
+        width: 100%
+    }
+}
+
+.small-container {
+    margin: 0 auto;
+    max-width: 1100px;
+    padding: 0 15px
+}
+
+@media(max-width:1200px) {
+    .small-container {
+        max-width: 960px
+    }
+}
+
+@media(max-width:767px) {
+    .small-container {
+        padding: 0 20px;
+        width: 100%
+    }
+
+    .right-no-padding-mob {
+        padding-right: 0 !important
+    }
+}
+
+.green {
+    color: #06cb87
+}
+
+.yellow {
+    color: #fb0
+}
+
+.flex-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px
+}
+
+@media(max-width:1200px) {
+    .flex-row {
+        margin: 0
+    }
+}
+
+.flex-row.nowrap {
+    flex-wrap: nowrap
+}
+
+.justify-content-between {
+    justify-content: space-between
+}
+
+.justify-content-center {
+    justify-content: center
+}
+
+@media(max-width:767px) {
+    .flex-reverse-mob {
+        flex-direction: column-reverse
+    }
+}
+
+.align-items-center {
+    align-items: center
+}
+
+.row-reverse {
+    flex-direction: row-reverse
+}
+
+.w-67 {
+    width: 67%
+}
+
+.w-28 {
+    width: 28%
+}
+
+.col-3 {
+    width: 25%
+}
+
+.col-4 {
+    width: 33.333%
+}
+
+.col-5 {
+    width: 41.6%
+}
+
+.col-6 {
+    width: 50%
+}
+
+.col-8 {
+    width: 66.4%
+}
+
+.col-7 {
+    width: 58%
+}
+
+.col-9 {
+    width: 75%
+}
+
+.col-2 {
+    width: 16.6%
+}
+
+.col-10 {
+    width: 83.3%
+}
+
+.col {
+    padding: 0 15px
+}
+
+@media(max-width:767px) {
+    .col {
+        padding: 0;
+        width: 100%
+    }
+}
+
+.black-bg {
+    background-color: #000
+}
+
+@media(min-width:1024px) {
+    .offset-1 {
+        margin-left: 8.333333%
+    }
+
+    .offset-2 {
+        margin-left: 16.666667%
+    }
+
+    .offset-3 {
+        margin-left: 25%
+    }
+
+    .offset-4 {
+        margin-left: 33.333333%
+    }
+
+    .offset-5 {
+        margin-left: 41.666667%
+    }
+
+    .offset-6 {
+        margin-left: 50%
+    }
+
+    .offset-7 {
+        margin-left: 58.333333%
+    }
+
+    .offset-8 {
+        margin-left: 66.666667%
+    }
+
+    .offset-9 {
+        margin-left: 75%
+    }
+
+    .offset-10 {
+        margin-left: 83.333333%
+    }
+
+    .offset-11 {
+        margin-left: 91.666667%
+    }
+}
+
+.button {
+    background: linear-gradient(146.6deg, #6c5bf2 10.2%, #8841f9 96.67%);
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    min-width: 210px;
+    padding: 18px 30px;
+    text-align: center;
+    transform: scale(1);
+    transition: all .4s
+}
+
+@media(hover:hover) {
+    .button:hover {
+        transform: scale(.95)
+    }
+}
+
+.button-white {
+    background: none;
+    border: 1px solid #6c5bf2;
+    color: #28125b
+}
+
+.text-center {
+    text-align: center
+}
+
+.heading,
+h3 {
+    color: #000;
+    font-family: Domine, serif;
+    font-size: 46px;
+    font-weight: 700;
+    letter-spacing: -1.536px;
+    line-height: 60px
+}
+
+@media(max-width:767px) {
+
+    .heading,
+    h3 {
+        font-size: 30px;
+        letter-spacing: -1px;
+        line-height: 45px
+    }
+}
+
+.link-unstyled {
+    color: #06cb87;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px
+}
+
+.hidden {
+    display: none !important
+}
+
+.show {
+    display: block !important
+}
+
+.visible-mobile,
+.visible-tablet {
+    display: none !important
+}
+
+@media(max-width:767px) {
+    .hidden-mobile {
+        display: none !important
+    }
+
+    .visible-mobile {
+        display: block !important
+    }
+}
+
+@media(max-width:990px) {
+    .visible-tablet {
+        display: block !important
+    }
+
+    .hidden-tablet {
+        display: none !important
+    }
+}
+
+.no-margin {
+    margin: 0
+}
+
+.yellow-heading {
+    background: #fb0;
+    border-radius: 15px;
+    font-size: 14px;
+    line-height: 17px;
+    padding: 6px 14px;
+    width: -webkit-max-content;
+    width: max-content
+}
+
+.yellow-heading.text-center {
+    margin: 0 auto
+}
+
+.position-relative {
+    position: relative
+}
+
+@media(max-width:767px) {
+    .position-relative-mobile {
+        position: relative
+    }
+}
+
+[data-watch-visibility=true] {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: .7s ease;
+    transition-delay: .3s
+}
+
+.visible,
+[data-watch-visibility=true].no-anim {
+    opacity: 1;
+    transform: translateY(0)
+}
+
+.purple {
+    color: #6c5bf2
+}
+
+.mb-15 {
+    margin-bottom: 15px
+}
+
+.mb-32 {
+    margin-bottom: 32px
+}
+
+@media(max-width:767px) {
+    .pr-20-m {
+        padding-right: 20px
+    }
+}
+
+.small-stroke {
+    position: relative
+}
+
+.small-stroke:before {
+    background-image: url("https://d33wubrfki0l68.cloudfront.net/e6e05f89c676dd06a6d7098fccb65988d4282fb0/8586f/img/stroke-small.svg");
+    background-size: contain;
+    bottom: 0;
+    content: "";
+    height: 90px;
+    margin: auto;
+    pointer-events: none;
+    right: 10px;
+    top: 0;
+    width: 100%;
+    z-index: 9
+}
+
+.big-gradient-circle,
+.small-stroke:before {
+    background-position: 50%;
+    background-repeat: no-repeat;
+    position: absolute
+}
+
+.big-gradient-circle {
+    background-image: url("https://d33wubrfki0l68.cloudfront.net/064f0ed340615b39376af8402268c04b66f5eb13/73a8b/img/violet-gradient.svg");
+    background-size: cover;
+    height: 1019px;
+    width: 1019px;
+    z-index: -1
+}
+
+.big-gradient-circle.small-gradient {
+    background-image: url("https://d33wubrfki0l68.cloudfront.net/55054756e6702badb39b0beca2440d5b80aefef6/e5597/img/small-violet-gradient.svg");
+    height: 700px;
+    width: 700px
+}
+
+.big-gradient-circle.green-gradient {
+    background-image: url("https://d33wubrfki0l68.cloudfront.net/b3491eaf7dabecf52633782bef78f295f4d2ab98/9d895/img/green-gradient.svg")
+}
+
+.big-gradient-circle.green-gradient.small-gradient {
+    background-image: url("https://d33wubrfki0l68.cloudfront.net/a98e5691932aff84c73dd41b950da0c0829bdf11/5a91e/img/small-green-gradient.svg")
+}
+
+.big-gradient-circle.red-gradient {
+    background-image: url("https://d33wubrfki0l68.cloudfront.net/bed7e427a85e57669217f2a9d65175228ba4c97b/c86c8/img/red-gradient.svg")
+}
+
+.big-gradient-circle.red-gradient.small-gradient {
+    background-image: url("https://d33wubrfki0l68.cloudfront.net/09be5e3ce53798823c81fc13fe0bd3de5875dbef/fdeaa/img/small-red-gradient.svg")
+}
+
+.big-gradient-circle.gradient-anim {
+    animation: gradientAnim 5s linear infinite forwards
+}
+
+.delay-1 {
+    animation-delay: 1s
+}
+
+.delay-2 {
+    animation-delay: 2s
+}
+
+@keyframes gradientAnim {
+    0% {
+        transform: rotate(0deg) translateX(200px) rotate(0deg)
+    }
+
+    to {
+        transform: rotate(1turn) translateX(200px) rotate(-1turn)
+    }
+}
+
+@keyframes fadein {
+    0% {
+        opacity: 0
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+.header {
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0
+}
+
+.header,
+.header .headroom {
+    margin-bottom: 0;
+    z-index: 9999
+}
+
+.header .headroom {
+    background-color: #fff;
+    padding: 15px 0;
+    transition: .4s ease
+}
+
+.header .headroom.headroom--unpinned {
+    transform: translateY(-100%)
+}
+
+.header .headroom.headroom--scrolled {
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, .96)
+}
+
+.header .nav-block {
+    flex-wrap: nowrap
+}
+
+.header .cliphire-logo {
+    max-width: 120px
+}
+
+.header .menu {
+    width: 100%
+}
+
+.header .left-nav {
+    margin: 0 0 0 50px
+}
+
+.header .left-nav a {
+    transition: all .2s
+}
+
+.header .left-nav div:not(:first-child) {
+    padding-left: 34px
+}
+
+.header .left-nav>div>a:hover {
+    color: #6c5bf2
+}
+
+.header a {
+    font-size: 16px;
+    line-height: 19px
+}
+
+.header .right-nav {
+    margin-left: auto
+}
+
+.header .button {
+    border-radius: 4px;
+    line-height: 1;
+    min-width: 100px;
+    padding: 11px 20px
+}
+
+.header .button.sign-up {
+    margin-left: 10px
+}
+
+.header .button.log-in {
+    background: #fff;
+    border: 1px solid #6c5bf2;
+    color: #000
+}
+
+.header .hamburger {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-left: auto;
+    padding: 0;
+    width: 24px
+}
+
+.header .hamburger:after,
+.header .hamburger:before,
+.header .hamburger span {
+    background-color: #000;
+    border: 1px solid #000;
+    border-radius: 2px;
+    content: "";
+    display: block;
+    height: 0;
+    margin: 4.5px 0;
+    padding: 0;
+    transition: .5s
+}
+
+.header .hamburger span {
+    margin-left: auto;
+    width: 67%
+}
+
+.header .hamburger:before {
+    margin-top: 0
+}
+
+.header .hamburger:after {
+    margin-bottom: 0
+}
+
+.header .hamburger-cross .hamburger:before {
+    transform: translateY(6.5px) rotate(135deg)
+}
+
+.header .hamburger-cross .hamburger:after {
+    transform: translateY(-6.5px) rotate(-135deg)
+}
+
+.header .hamburger-cross .hamburger span {
+    transform: scale(0)
+}
+
+@media(max-width:767px) {
+    .header .headroom {
+        padding: 17px 0 18px
+    }
+
+    .header .cliphire-logo {
+        position: relative;
+        right: 0;
+        width: 104px;
+        z-index: 9999
+    }
+
+    .header .menu {
+        background-color: #fff;
+        height: 100vh;
+        left: 0;
+        max-width: 100%;
+        overflow-x: hidden;
+        padding: 80px 15px 0;
+        position: fixed;
+        top: 0;
+        transform: translateX(100%);
+        transition: all .3s ease 0s;
+        z-index: 9998
+    }
+
+    .header .menu,
+    .header .menu .left-nav {
+        display: block;
+        margin: 0
+    }
+
+    .header .menu .left-nav div:not(:first-child) {
+        padding-left: 0
+    }
+
+    .header .menu a:not(.button) {
+        align-items: center;
+        border-top: 1px solid #dcdee6;
+        display: flex;
+        font-size: 16px;
+        line-height: 27px;
+        padding: 20px 4px;
+        text-align: left
+    }
+
+    .header .menu .left-nav div:last-child a {
+        border-bottom: 1px solid #dcdee6
+    }
+
+    .header .menu .button {
+        display: block;
+        padding: 15px 0;
+        text-align: center
+    }
+
+    .header .button:last-child {
+        margin-left: 0;
+        margin-top: 10px
+    }
+
+    .header .right-nav {
+        margin: 0 auto;
+        position: absolute;
+        width: 90%;
+        z-index: 9999
+    }
+
+    .header .menu-open {
+        transform: translateX(0);
+        transition: .5s ease
+    }
+
+    .header .hamburger {
+        position: relative;
+        z-index: 9999
+    }
+}
+
+.footer {
+    background-color: #582aba;
+    padding: 130px 0 80px
+}
+
+.footer .footer-content {
+    border-bottom: 1px solid #fff
+}
+
+.footer .footer-content h3 {
+    color: #fff;
+    line-height: 65px;
+    margin: 0 auto 30px;
+    max-width: 500px;
+    position: relative;
+    text-align: center
+}
+
+.footer .footer-content h3 .tilt-text {
+    background: linear-gradient(278.87deg, #ffc1d1 8.78%, #dedfff 48.73%, #a0ffe6 89.7%);
+    border-radius: 25.5px;
+    color: #000;
+    font-family: Domine;
+    font-size: 23px;
+    font-weight: 700;
+    left: -30px;
+    letter-spacing: -.736px;
+    line-height: 45px;
+    padding: 0 32px;
+    position: absolute;
+    text-align: center;
+    top: -30px;
+    transform: rotate(-14deg)
+}
+
+.footer .footer-content .button {
+    background: #fff;
+    border-radius: 4px;
+    color: #000;
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    margin: 0 auto 160px;
+    max-width: 213px;
+    padding: 18px 30px
+}
+
+.footer a {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 31px
+}
+
+.footer .footer-nav {
+    margin: 52px 0 0
+}
+
+.footer .footer-nav .top-footer {
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-bottom: 28px
+}
+
+.footer .footer-nav .top-footer img {
+    max-width: 120px
+}
+
+.footer .footer-nav .top-footer .contact-us {
+    max-width: 90px;
+    transition: all .2s
+}
+
+.footer .footer-nav .top-footer .contact-us:hover {
+    color: #fb0
+}
+
+.footer .footer-nav .bottom-footer .footer-links {
+    margin-right: auto
+}
+
+.footer .footer-nav .bottom-footer .footer-links a {
+    padding-right: 37px;
+    transition: all .2s
+}
+
+.footer .footer-nav .bottom-footer .footer-links a:hover {
+    color: #fb0
+}
+
+.footer .footer-nav .bottom-footer .footer-logo {
+    margin-left: auto
+}
+
+.footer .footer-nav .bottom-footer .footer-logo a {
+    padding-left: 20px;
+    transform: scale(1)
+}
+
+.footer .footer-nav .bottom-footer .footer-logo a:hover {
+    opacity: .9
+}
+
+.footer .footer-nav .bottom-footer .footer-logo a:hover img {
+    transform: scale(.988)
+}
+
+@media(max-width:767px) {
+    .footer {
+        padding: 105px 0 72px
+    }
+
+    .footer .footer-content h3 {
+        font-size: 30px;
+        letter-spacing: -1px;
+        line-height: 45px;
+        max-width: 335px
+    }
+
+    .footer .footer-content h3 .tilt-text {
+        font-size: 14px;
+        left: -15px;
+        letter-spacing: -.448px;
+        line-height: 16px;
+        padding: 8px 20px;
+        top: -20px
+    }
+
+    .footer .footer-content .button {
+        margin-bottom: 72px
+    }
+
+    .footer .footer-nav {
+        margin-top: 72px;
+        padding-bottom: 140px;
+        position: relative
+    }
+
+    .footer .footer-nav a {
+        line-height: 24px
+    }
+
+    .footer .footer-nav .top-footer {
+        margin-bottom: 32px
+    }
+
+    .footer .footer-nav .top-footer img {
+        bottom: 0;
+        left: 50%;
+        margin-left: -78px;
+        max-width: 156px;
+        position: absolute;
+        width: 156px
+    }
+
+    .footer .footer-nav .top-footer .contact-us {
+        margin: 0 auto
+    }
+
+    .footer .footer-nav .bottom-footer .footer-logo {
+        margin: 0 auto 72px;
+        order: 0
+    }
+
+    .footer .footer-nav .bottom-footer .footer-links {
+        margin: 0 auto;
+        order: 2
+    }
+
+    .footer .footer-nav .bottom-footer .footer-links a {
+        line-height: 30px;
+        margin: 0 auto 24px;
+        min-width: 51%;
+        padding: 0;
+        text-align: center
+    }
+}
+
+@media(max-width:1200px)and (min-width:767px) {
+    .footer .footer-nav .bottom-footer .footer-links {
+        margin: 20px auto
+    }
+
+    .footer .footer-nav .bottom-footer .footer-logo {
+        margin: 0 auto
+    }
+}
+
+.heroIndexMain {
+    align-items: center;
+    display: flex;
+    margin: 0 0 150px;
+    min-height: 100vh;
+    padding-top: 80px;
+    position: relative
+}
+
+.heroIndexMain .offset-custom-2 {
+    margin-left: 14%
+}
+
+@media(max-width:990px) {
+    .heroIndexMain .offset-custom-2 {
+        margin: 0
+    }
+}
+
+@media(min-width:768px)and (max-width:990px) {
+    .heroIndexMain {
+        margin-bottom: 0
+    }
+
+    .heroIndexMain .col {
+        width: 50%
+    }
+}
+
+.heroIndexMain .container {
+    width: 100%
+}
+
+.heroIndexMain .hero-svg-storke {
+    bottom: -300px;
+    height: auto;
+    left: -5%;
+    pointer-events: none;
+    position: absolute;
+    right: 0;
+    width: 110%;
+    z-index: 0
+}
+
+.heroIndexMain .hero-svg-storke path {
+    stroke-dasharray: 1770;
+    stroke-dashoffset: 1770
+}
+
+@media(max-width:767px) {
+    .heroIndexMain .hero-svg-storke {
+        bottom: -100px;
+        left: -40%;
+        width: 390%
+    }
+
+    .heroIndexMain .hero-svg-storke path {
+        stroke-width: 150px;
+        stroke-dasharray: unset;
+        stroke-dashoffset: unset
+    }
+}
+
+.heroIndexMain .image-container-main {
+    margin-left: 110px;
+    max-width: 400px;
+    position: relative;
+    z-index: 999
+}
+
+@media(max-width:990px) {
+    .heroIndexMain .image-container-main {
+        margin-left: 40px;
+        max-width: 50%
+    }
+}
+
+@media(max-width:767px) {
+    .heroIndexMain .image-container-main {
+        margin: 0 auto;
+        max-width: 100%
+    }
+}
+
+.heroIndexMain .image-container-main .hero-video-square {
+    background-color: #fb0;
+    height: 92px;
+    left: -10px;
+    position: absolute;
+    top: -10px;
+    width: 92px
+}
+
+.heroIndexMain .image-container-main .button-video-resume {
+    background: #fff;
+    border-radius: 11px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, .25);
+    color: #000f3d;
+    font-size: 13px;
+    left: -90px;
+    line-height: 16px;
+    min-width: 190px;
+    padding: 9px 10px;
+    position: absolute;
+    top: 90px;
+    z-index: 999
+}
+
+.heroIndexMain .image-container-main .button-video-resume img {
+    margin: 0 7px 0 0;
+    max-width: 30px
+}
+
+.heroIndexMain .image-container-main .button-video-resume.get-hired-button {
+    left: auto;
+    min-width: 0;
+    opacity: 0;
+    right: -50px
+}
+
+.heroIndexMain .image-container-main .button-video-resume.get-hired-button img {
+    max-width: 24px
+}
+
+@media(max-width:990px) {
+    .heroIndexMain .image-container-main .button-video-resume {
+        bottom: 90px;
+        left: -10px;
+        top: auto;
+        z-index: 999
+    }
+}
+
+@media(max-width:767px) {
+    .heroIndexMain .image-container-main .button-video-resume {
+        left: -30px
+    }
+}
+
+.heroIndexMain .image-container-main>img {
+    position: absolute;
+    right: 0
+}
+
+.heroIndexMain .image-container-main .hero-video-area {
+    height: 480px;
+    margin: 0 auto;
+    position: relative;
+    width: 400px;
+    z-index: 99
+}
+
+.heroIndexMain .image-container-main .hero-video-area>div {
+    height: 100%;
+    overflow: hidden;
+    width: 100%
+}
+
+.heroIndexMain .image-container-main .hero-video-area>div>img {
+    border-radius: 4px;
+    filter: blur(6px);
+    width: calc(100% - 4px)
+}
+
+.heroIndexMain .image-container-main .hero-video-area>div video {
+    border-radius: 4px;
+    height: 100%;
+    left: 0;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: 62% center;
+    object-position: 62% center;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%
+}
+
+.heroIndexMain .image-container-main .hero-video-area>div .mute {
+    background-color: transparent;
+    border: none;
+    border-radius: 50%;
+    bottom: 10px;
+    cursor: pointer;
+    display: block;
+    height: 40px;
+    position: absolute;
+    right: 10px;
+    text-align: center;
+    width: 40px
+}
+
+.heroIndexMain .image-container-main .hero-video-area>div .mute .mute-button {
+    display: none;
+    width: 38px
+}
+
+.heroIndexMain .image-container-main .hero-video-area>div .mute .mute-button.show {
+    display: inline-block
+}
+
+@media(max-width:767px) {
+    .heroIndexMain .image-container-main .hero-video-area>div .mute {
+        height: 32px;
+        width: 32px
+    }
+}
+
+@media(max-width:1200px) {
+    .heroIndexMain .image-container-main .hero-video-area {
+        max-width: 350px
+    }
+}
+
+@media(min-width:768px)and (max-width:990px) {
+    .heroIndexMain .image-container-main .hero-video-area {
+        height: 340px;
+        width: 300px
+    }
+}
+
+@media(max-width:767px) {
+    .heroIndexMain .image-container-main .hero-video-area {
+        height: 320px;
+        margin-bottom: 45px;
+        width: 265px
+    }
+}
+
+.heroIndexMain .main-heading {
+    max-width: 410px;
+    position: relative;
+    z-index: 99
+}
+
+.heroIndexMain .main-heading h1 {
+    margin-bottom: 50px
+}
+
+.heroIndexMain .main-heading h1 span {
+    display: block;
+    position: relative
+}
+
+.heroIndexMain .main-heading h1 span:before {
+    background-image: url("https://d33wubrfki0l68.cloudfront.net/fa32fd541da9f0de2e1b788be37690bc3c00c8f7/83af5/img/circle-stroke.svg");
+    background-position: 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+    bottom: -33px;
+    content: "";
+    height: 135px;
+    left: -10px;
+    pointer-events: none;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+    z-index: 9
+}
+
+.heroIndexMain .main-heading p {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 31px;
+    margin-bottom: 30px
+}
+
+@media(max-width:1200px) {
+    .heroIndexMain .main-heading h1 {
+        font-size: 55px;
+        line-height: 65px;
+        margin-bottom: 20px
+    }
+}
+
+@media(max-width:990px) {
+    .heroIndexMain .main-heading h1 {
+        font-size: 42px;
+        line-height: 46px;
+        margin-bottom: 30px
+    }
+
+    .heroIndexMain .main-heading h1 span:before {
+        bottom: -14px;
+        height: 70px;
+        width: 115%
+    }
+}
+
+@media(max-width:767px) {
+    .heroIndexMain .main-heading {
+        text-align: center
+    }
+
+    .heroIndexMain .main-heading h1 {
+        margin-bottom: 15px
+    }
+
+    .heroIndexMain .main-heading h1 span {
+        display: inline-block
+    }
+
+    .heroIndexMain .main-heading h1 span:before {
+        left: -10px
+    }
+
+    .heroIndexMain .main-heading p {
+        font-size: 16px;
+        line-height: 26px
+    }
+}
+
+@media(max-width:990px) {
+    .heroIndexMain {
+        margin-top: 0;
+        padding: 90px 0 0
+    }
+
+    .heroIndexMain .image-container-main .button-video-resume.get-hired-button {
+        right: -20px
+    }
+}
+
+.indexIntro {
+    margin: 0 auto;
+    padding-bottom: 60px;
+    transform-origin: bottom center
+}
+
+.indexIntro .intro-block {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px rgba(25, 49, 96, .08)
+}
+
+@media(max-width:767px) {
+    .indexIntro .intro-block {
+        padding-bottom: 0
+    }
+}
+
+.indexIntro .intro-head {
+    border-bottom: 1px solid #e5e5e5;
+    margin-bottom: 50px;
+    padding: 17px 0 12px
+}
+
+.indexIntro .intro-head .intro-logo {
+    height: 100%;
+    margin: 0 auto 0 60px;
+    max-width: 100px
+}
+
+.indexIntro .intro-head .button-green {
+    background: #06cb87;
+    font-size: 17px;
+    line-height: 21px;
+    margin: 0 60px 0 auto;
+    min-width: 144px;
+    padding: 12px 20px;
+    pointer-events: none
+}
+
+@media(max-width:767px) {
+    .indexIntro .intro-head {
+        margin-bottom: 25px
+    }
+
+    .indexIntro .intro-head .intro-logo {
+        margin: 0 auto 0 15px
+    }
+
+    .indexIntro .intro-head .button-green {
+        font-size: 12px;
+        margin: 0 15px 0 auto;
+        min-width: 100px;
+        padding: 8px
+    }
+}
+
+.indexIntro .intro-image-main {
+    padding-bottom: 10px
+}
+
+.indexIntro .intro-image-main .image-container-intro img {
+    opacity: 0
+}
+
+@media(min-width:768px)and (max-width:990px) {
+    .indexIntro .intro-image-main .col {
+        width: 50%
+    }
+}
+
+@media(max-width:767px) {
+    .indexIntro .intro-image-main {
+        padding: 0 15px
+    }
+
+    .indexIntro .intro-image-main .circle {
+        display: none
+    }
+}
+
+.indexIntro .intro-contents-wrapper .circle {
+    background-image: url("https://d33wubrfki0l68.cloudfront.net/cc789abc90a392244a712458463ea0cb4b296040/71176/img/cliphire-main.jpg");
+    background-position: 50%;
+    background-size: contain;
+    border-radius: 50%;
+    height: 102px;
+    width: 102px
+}
+
+.indexIntro .intro-contents-wrapper .intro-contents h5 {
+    line-height: 30px;
+    margin-bottom: 10px
+}
+
+.indexIntro .intro-contents-wrapper .intro-contents span {
+    background: #f1eefa;
+    border-radius: 4px;
+    display: block;
+    height: 16px;
+    margin-bottom: 10px;
+    padding: 0;
+    width: 100%
+}
+
+.indexIntro .intro-contents-wrapper .intro-contents span:last-child {
+    width: 60%
+}
+
+.indexIntro .intro-contents-wrapper .intro-contents .accordian-1 {
+    border-bottom: 1px solid #e5e5e5;
+    margin-top: 20px;
+    padding-bottom: 10px
+}
+
+@media(max-width:767px) {
+    .indexIntro .intro-contents-wrapper .intro-contents .accordian-1:last-child {
+        border-bottom: none
+    }
+}
+
+.indexIntro .big-gradient-circle {
+    left: -26%;
+    top: -30%
+}
+
+.indexIntro .big-gradient-circle:nth-child(2) {
+    left: auto;
+    right: 5%;
+    top: 0
+}
+
+.indexHow {
+    padding: 187px 0 200px
+}
+
+.indexHow .yellow-heading {
+    margin: 0 auto
+}
+
+.indexHow h3 {
+    margin: 3px auto 175px
+}
+
+@media(max-width:990px) {
+    .indexHow h3 {
+        margin: 3px auto 105px
+    }
+}
+
+.indexHow .how-tabs {
+    justify-content: space-between
+}
+
+.indexHow .how-tabs .tab-1 {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 275px;
+    padding: 0 15px;
+    transform: translateY(0);
+    transition: all .5s ease
+}
+
+.indexHow .how-tabs .tab-1 .tab-image-wrapper {
+    height: 150px
+}
+
+.indexHow .how-tabs .tab-1 .tab-image-wrapper img {
+    height: auto;
+    transition: all .5s ease;
+    width: 150px
+}
+
+.indexHow .how-tabs .tab-1:hover img {
+    transform: translateY(-10px)
+}
+
+.indexHow .how-tabs .tab-1 .tab-content {
+    align-items: center;
+    display: flex;
+    flex-direction: column
+}
+
+.indexHow .how-tabs .tab-1 .tab-content h5 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 75px;
+    margin-bottom: 10px
+}
+
+.indexHow .how-tabs .tab-1 .tab-content p {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: center
+}
+
+@media(max-width:990px) {
+    .indexHow .how-tabs .tab-1 {
+        max-width: 200px
+    }
+
+    .indexHow .how-tabs .tab-1 h3 {
+        margin: 3px auto 105px
+    }
+}
+
+@media(max-width:767px) {
+    .indexHow .how-tabs .tab-1 {
+        max-width: 100%
+    }
+
+    .indexHow {
+        padding: 52px 0 100px
+    }
+
+    .indexHow h3 {
+        margin-bottom: 80px
+    }
+
+    .indexHow .yellow-heading {
+        margin: 0 auto 20px
+    }
+
+    .indexHow .how-tabs .tab-1 {
+        margin-bottom: 60px
+    }
+
+    .indexHow .how-tabs .tab-1:last-child {
+        margin-bottom: 0
+    }
+}
+
+.feature {
+    margin-bottom: 250px;
+    padding-top: 100px
+}
+
+.feature .yellow-heading {
+    margin-bottom: 25px;
+    width: 126px
+}
+
+.feature h3 {
+    line-height: 65px
+}
+
+.feature .feature-col {
+    max-width: 45%;
+    width: 100%
+}
+
+.feature .feature-col-2 {
+    margin-left: 3%;
+    max-width: 51%;
+    width: 100%
+}
+
+.feature .feature-col-2 .accordion-image-area {
+    align-items: flex-end;
+    display: flex;
+    height: 632px;
+    justify-content: center;
+    max-width: 100%;
+    position: relative;
+    width: 545px
+}
+
+.feature .feature-col-2 .accordion-image-area .accordion-image {
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 632px;
+    opacity: 0;
+    transition: all .5s ease-in-out;
+    visibility: hidden
+}
+
+.feature .feature-col-2 .accordion-image-area .accordion-image :not(:first-child) {
+    bottom: 0;
+    position: absolute;
+    width: 100%
+}
+
+.feature .feature-col-2 .accordion-image-area .accordion-image1 {
+    background-image: url("https://d33wubrfki0l68.cloudfront.net/415ee4c5f7dadab3b16be74cae2ae7be2ae14aa3/3e7e4/img/accordion-video.png")
+}
+
+.feature .feature-col-2 .accordion-image-area .accordion-image2 {
+    background-image: url("https://d33wubrfki0l68.cloudfront.net/3c1ac3c4266717b6a59e632b06a9b25448b584b9/9cd71/img/accordion-resume.png");
+    background-position-x: 200%;
+    height: 665px
+}
+
+.feature .feature-col-2 .accordion-image-area .accordion-image3 {
+    background-image: url("https://d33wubrfki0l68.cloudfront.net/e8b97814732e8fd27273561e4549a9867a908ed9/a6e67/img/accordion-analytics.png");
+    background-position-x: 110%
+}
+
+.feature .feature-col-2 .accordion-image-area .accordion-image3.accordion-image-active {
+    min-width: 600px
+}
+
+.feature .feature-col-2 .accordion-image-area .accordion-image4 {
+    background-image: url("https://d33wubrfki0l68.cloudfront.net/bbed6e0bac9aef93c592398f2fc4e5850f657452/6e52a/img/accordion-verified.png");
+    background-position-x: 120%
+}
+
+.feature .feature-col-2 .accordion-image-area .accordion-image4.accordion-image-active {
+    min-width: 600px
+}
+
+.feature .feature-col-2 .accordion-image-area .accordion-image5 {
+    background-image: url("https://d33wubrfki0l68.cloudfront.net/513fb1560603d80866e9b1b176e83b7a67fa8052/90df8/img/accordion-calendar.png")
+}
+
+.feature .feature-col-2 .accordion-image-area .accordion-image6 {
+    background-image: url("https://d33wubrfki0l68.cloudfront.net/3c6b55b5f3eeeaa2ee1964851f2602a05a9ee591/8f2f3/img/accordion-in-app.png")
+}
+
+.feature .feature-col-2 .accordion-image-area .accordion-image-active {
+    opacity: 1;
+    visibility: visible;
+    width: 100%
+}
+
+.feature .accordion {
+    border-bottom: 1px solid #e5e5e5;
+    max-width: 460px;
+    padding: 15px 0
+}
+
+.feature .accordion-head {
+    padding-right: 30px;
+    position: relative;
+    text-align: left;
+    width: 100%
+}
+
+.feature .accordion-head img {
+    height: 50px;
+    margin-right: 11px
+}
+
+.feature .accordion-head h5 {
+    font-family: Inter, sans-serif;
+    font-size: 20px;
+    line-height: 35px;
+    margin: 0
+}
+
+.feature .accordion-body {
+    height: auto;
+    max-height: 0;
+    max-width: 425px;
+    overflow: hidden;
+    padding: 0 10px;
+    transition: all .3s ease
+}
+
+.feature .accordion-body p {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px
+}
+
+.feature .accordion-body p:last-child {
+    margin: 0
+}
+
+.feature .accordion.is-active {
+    pointer-events: none
+}
+
+.feature .accordion.is-active .accordion-body {
+    animation: fadein 1s ease 1 forwards;
+    max-height: -webkit-max-content;
+    max-height: max-content
+}
+
+.feature .accordion.is-active .accordion-body p {
+    margin: 15px 0 20px
+}
+
+.feature .accordion svg {
+    position: absolute;
+    right: 0;
+    top: 50%
+}
+
+@media(max-width:990px) {
+    .feature {
+        margin-bottom: 100px
+    }
+
+    .feature .feature-col,
+    .feature .feature-col .accordion,
+    .feature .feature-col .accordion-body {
+        max-width: 100%
+    }
+}
+
+@media(max-width:767px) {
+    .feature {
+        padding-top: 70px
+    }
+
+    .feature h3 {
+        line-height: 40px;
+        text-align: center
+    }
+
+    .feature .yellow-heading {
+        margin: 0 auto 15px
+    }
+}
+
+.feature .accordion-img-bg {
+    overflow: hidden;
+    padding-top: 179px;
+    position: relative;
+    text-align: center
+}
+
+.feature .accordion-img-bg .big-gradient-circle:first-child {
+    left: -26%;
+    top: -18%
+}
+
+.feature .accordion-img-bg .big-gradient-circle:nth-child(2) {
+    right: -30%;
+    top: 25%
+}
+
+.feature .accordion-img-bg .big-gradient-circle:nth-child(3) {
+    bottom: 25%;
+    left: 0;
+    margin: 0 auto;
+    right: 0
+}
+
+@media(max-width:990px) {
+    .feature .accordion-img-bg {
+        height: 411px;
+        margin-bottom: 40px;
+        padding-top: 20.5%
+    }
+
+    .feature .accordion-img-bg img {
+        max-height: 100%
+    }
+}
+
+@media(max-width:767px) {
+    .feature .accordion-img-bg {
+        margin-bottom: 20px
+    }
+}
+
+@media(min-width:767px) {
+    .feature .accordion-img-bg img {
+        height: 632px
+    }
+}
+
+@media(max-width:767px) {
+    .feature .accordion:nth-child(2) .accordion-img-bg {
+        padding-top: 14.7%
+    }
+
+    .feature .accordion:nth-child(2) .accordion-img-bg img {
+        left: 7%;
+        position: relative
+    }
+
+    .feature .accordion:nth-child(3) .accordion-img-bg img {
+        left: 3.4%;
+        position: relative
+    }
+
+    .feature .accordion:nth-child(4) .accordion-img-bg img {
+        left: 2.4%;
+        position: relative
+    }
+}
+
+.table .yellow-heading {
+    margin: 0 auto 10px;
+    width: 190px
+}
+
+@media(max-width:767px) {
+    .table .yellow-heading {
+        margin-bottom: 15px
+    }
+}
+
+.table h3 {
+    margin: 0 auto 16px
+}
+
+.table .pre-table-text {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 31px;
+    margin: 0 auto 77px;
+    max-width: 730px
+}
+
+@media(max-width:767px) {
+    .table .pre-table-text {
+        font-size: 16px;
+        line-height: 26px;
+        margin-bottom: 55px
+    }
+}
+
+.table .feature-table {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px rgba(25, 49, 96, .08);
+    flex-wrap: nowrap;
+    margin: 0 auto 300px;
+    max-width: 900px
+}
+
+@media(max-width:990px) {
+    .table .feature-table {
+        margin-bottom: 100px
+    }
+}
+
+@media(max-width:767px) {
+    .table .feature-table {
+        border-bottom-right-radius: 0;
+        border-top-right-radius: 0
+    }
+}
+
+.table h4 {
+    font-weight: 600;
+    line-height: 35px
+}
+
+@media(max-width:990px) {
+    .table h4 {
+        line-height: 30px
+    }
+}
+
+.table h4,
+.table h5 {
+    margin: 0
+}
+
+.table .feature-list {
+    width: 330px
+}
+
+@media(max-width:767px) {
+    .table .feature-list {
+        width: auto
+    }
+}
+
+.table .feature-list .feature-block,
+.table .feature-list .feature-head {
+    padding-left: 80px;
+    padding-right: 70px
+}
+
+@media(max-width:767px) {
+
+    .table .feature-list .feature-block,
+    .table .feature-list .feature-head {
+        padding: 0 10px 0 20px
+    }
+
+    .table .feature-list .feature-block h5,
+    .table .feature-list .feature-head h5 {
+        font-size: 14px;
+        line-height: 22px
+    }
+}
+
+.table .feature-body {
+    flex-wrap: nowrap;
+    margin: 0;
+    overflow: auto;
+    width: calc(100% - 330px)
+}
+
+.table .feature-body .single-feature .feature-block,
+.table .feature-body .single-feature .feature-head {
+    justify-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 190px
+}
+
+@media(max-width:767px) {
+
+    .table .feature-body .single-feature .feature-block,
+    .table .feature-body .single-feature .feature-head {
+        width: 100px
+    }
+}
+
+.table .feature-body .single-feature .feature-block .cliphire-logo-table,
+.table .feature-body .single-feature .feature-block .indeed-logo-table,
+.table .feature-body .single-feature .feature-block .linkedin-logo-table,
+.table .feature-body .single-feature .feature-head .cliphire-logo-table,
+.table .feature-body .single-feature .feature-head .indeed-logo-table,
+.table .feature-body .single-feature .feature-head .linkedin-logo-table {
+    width: 77px
+}
+
+@media(max-width:767px) {
+    .table .feature-body {
+        width: calc(100% - 150px)
+    }
+}
+
+.table .feature-block,
+.table .feature-head {
+    align-items: center;
+    display: flex;
+    height: 85px
+}
+
+.table .feature-block h5,
+.table .feature-head h5 {
+    font-size: 16px;
+    line-height: 70px
+}
+
+.table .feature-block .check,
+.table .feature-head .check {
+    align-items: center;
+    background-image: url("https://d33wubrfki0l68.cloudfront.net/41e9106d1cffff579688834e1e4d151ece999e63/0c9d6/img/check.svg");
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: 30px;
+    border-radius: 50%;
+    display: flex;
+    height: 27px;
+    justify-content: center;
+    margin: 0 auto;
+    width: 27px
+}
+
+.table .feature-block .check.cross,
+.table .feature-head .check.cross {
+    background-image: url("https://d33wubrfki0l68.cloudfront.net/deae90ed3e2b1102fa29af2fe4924bde35718319/7b530/img/check-grey.svg")
+}
+
+@media(max-width:767px) {
+    .table .feature-head {
+        height: 71px
+    }
+
+    .table .feature-block {
+        height: 65px
+    }
+}
+
+.table .feature-head {
+    align-items: center;
+    display: flex
+}
+
+.table .feature-head h4,
+.table .feature-head img {
+    height: 25px
+}
+
+.table .feature-block,
+.table .feature-head {
+    border-bottom: 1px solid #e5e5e5
+}
+
+.table .feature-block:last-child {
+    border-bottom: none
+}
+
+.table .big-gradient-circle {
+    left: 30%;
+    top: -116px
+}
+
+.table .big-gradient-circle.small-gradient {
+    left: auto;
+    right: 50%;
+    top: 203px
+}
+
+.table .big-gradient-circle.red-gradient {
+    left: 20%;
+    top: 550px
+}
+
+.testimonial {
+    padding-bottom: 100px
+}
+
+.testimonial .testimonial-inner .testimonial-video-area {
+    border-radius: 4px;
+    margin-right: 48px;
+    max-width: calc(40% - 108px);
+    overflow: hidden;
+    position: relative;
+    width: 100%
+}
+
+.testimonial .testimonial-inner .testimonial-video-area .testimonial-video {
+    border-radius: 4px;
+    height: 491px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: top;
+    object-position: top;
+    width: 320px
+}
+
+.testimonial .testimonial-inner .testimonial-video-area .testimonial-video img {
+    height: 100%;
+    -o-object-fit: contain;
+    object-fit: contain
+}
+
+@media(max-width:767px) {
+    .testimonial .testimonial-inner .testimonial-video-area .testimonial-video {
+        -o-object-position: 100% 30%;
+        object-position: 100% 30%;
+        width: 100%
+    }
+}
+
+.testimonial .testimonial-inner .testimonial-video-area .yellow-heading {
+    bottom: 12px;
+    left: 12px;
+    margin: 0;
+    position: absolute;
+    width: 161px
+}
+
+@media(max-width:767px) {
+    .testimonial .testimonial-inner .testimonial-video-area {
+        margin: 0 0 20px;
+        max-width: 100%;
+        width: 100%
+    }
+
+    .testimonial .testimonial-inner .testimonial-video-area .testimonial-image {
+        height: 358px;
+        width: 100%
+    }
+}
+
+.testimonial .testimonial-inner .testimonial-content-area {
+    display: block
+}
+
+.testimonial .testimonial-inner .testimonial-content-area .big-gradient-circle:first-child {
+    animation-direction: reverse;
+    left: -25%;
+    top: 0
+}
+
+.testimonial .testimonial-inner .testimonial-content-area .big-gradient-circle.green-gradient {
+    left: 15%;
+    top: -65%
+}
+
+@media(max-width:767px) {
+    .testimonial .testimonial-inner .testimonial-content-area .big-gradient-circle:first-child {
+        animation-direction: reverse;
+        left: -100%;
+        top: 30%
+    }
+
+    .testimonial .testimonial-inner .testimonial-content-area .big-gradient-circle.green-gradient {
+        left: 10%;
+        top: -40%
+    }
+}
+
+.testimonial .testimonial-inner .testimonial-content-area .testimonial-content {
+    border-radius: 4px;
+    height: 491px;
+    max-width: 700px;
+    overflow: hidden;
+    padding: 57px 50px 0;
+    position: relative
+}
+
+.testimonial .testimonial-inner .testimonial-content-area .testimonial-content h5 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 38px;
+    margin: 0
+}
+
+@media(max-width:1200px)and (min-width:767px) {
+    .testimonial .testimonial-inner .testimonial-content-area {
+        max-width: 60%
+    }
+}
+
+@media(max-width:990px) {
+    .testimonial .testimonial-inner .testimonial-content-area .testimonial-content {
+        padding: 30px 25px 70px
+    }
+
+    .testimonial .testimonial-inner .testimonial-content-area .testimonial-content h5 {
+        font-size: 20px;
+        line-height: 32px;
+        margin-bottom: 40px
+    }
+}
+
+.testimonial .slick-slider {
+    position: relative
+}
+
+.testimonial .slick-slider .slick-arrow {
+    background-color: #000;
+    background-image: url("https://d33wubrfki0l68.cloudfront.net/6f774f34ba9a323f3f45e0782553947339ff3015/018c6/img/chevron.svg");
+    background-position: 50%;
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 50%;
+    bottom: -10px;
+    font-size: 0;
+    height: 40px;
+    position: absolute;
+    top: 408px;
+    transition: .3s ease;
+    width: 40px;
+    z-index: 4
+}
+
+.testimonial .slick-slider .slick-arrow.slick-prev {
+    background-image: url("https://d33wubrfki0l68.cloudfront.net/cb234d43cca86d42020f4e420000a18ce542aa18/ae306/img/chevron-left.svg");
+    left: 39.3%
+}
+
+.testimonial .slick-slider .slick-arrow.slick-next {
+    left: 44%
+}
+
+@media(max-width:767px) {
+    .testimonial .slick-slider .slick-arrow {
+        bottom: 27px;
+        left: 0;
+        margin: 0 auto 0 0;
+        right: 0;
+        top: auto
+    }
+
+    .testimonial .slick-slider .slick-arrow.slick-prev {
+        left: 25px
+    }
+
+    .testimonial .slick-slider .slick-arrow.slick-next {
+        left: 75px;
+        right: auto
+    }
+}
+
+.testimonial .slick-slider .slick-arrow:hover {
+    background-color: #6c5bf2
+}
+
+.testimonial .slick-slider .slick-arrow.slick-disabled {
+    background-color: #acacac;
+    pointer-events: none
+}
+
+.testimonial .slick-slider .slick-arrow.slick-disabled:hover {
+    background-color: #acacac
+}
+
+.testimonial .mute {
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    background-color: transparent;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: block;
+    height: 40px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 40px;
+    z-index: 5
+}
+
+.testimonial .mute .mute-button {
+    display: none
+}
+
+.testimonial .mute .mute-button.show {
+    display: block
+}
+
+.videoSlider {
+    margin-bottom: 200px
+}
+
+.videoSlider .why-index-content {
+    margin-bottom: 150px
+}
+
+@media(min-width:768px)and (max-width:990px) {
+    .videoSlider .why-index-content .col {
+        width: 50%
+    }
+}
+
+.videoSlider .why-index-content h3 {
+    line-height: 65px
+}
+
+.videoSlider .why-index-content p {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 31px
+}
+
+.videoSlider .why-index-content a {
+    font-weight: 600
+}
+
+.videoSlider .why-index-content a img {
+    margin-left: 6px
+}
+
+.videoSlider .purple img {
+    transform: translateX(0);
+    transition: all .3s ease 0s
+}
+
+.videoSlider .purple:hover {
+    opacity: .9
+}
+
+.videoSlider .purple:hover img {
+    transform: translateX(5px)
+}
+
+@media(max-width:990px) {
+    .videoSlider {
+        margin-bottom: 30px
+    }
+}
+
+@media(max-width:767px) {
+    .videoSlider {
+        text-align: center
+    }
+
+    .videoSlider .yellow-heading {
+        margin: 0 auto 20px
+    }
+
+    .videoSlider .why-index-content {
+        margin-bottom: 100px
+    }
+
+    .videoSlider .why-index-content h3 {
+        line-height: 40px
+    }
+
+    .videoSlider .why-index-content p {
+        font-size: 16px;
+        line-height: 26px
+    }
+
+    .videoSlider .why-index-content a {
+        font-size: 16px
+    }
+}
+
+.videoSlider .case-card {
+    border: 10px solid transparent;
+    box-shadow: 0 7px 12px rgba(25, 49, 96, .18);
+    height: auto;
+    margin: 30px auto 60px;
+    position: relative;
+    transition: all .5s ease-in-out 0s
+}
+
+.videoSlider .case-card .case-video {
+    position: relative
+}
+
+.videoSlider .case-card .case-video img {
+    -o-object-fit: cover;
+    object-fit: cover;
+    width: 100%
+}
+
+.videoSlider .case-card .case-video video {
+    height: 100%;
+    left: 0;
+    -o-object-fit: cover;
+    object-fit: cover;
+    position: absolute;
+    right: 0;
+    top: 0
+}
+
+.videoSlider .case-card .case-video .mute {
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    background-color: transparent;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: block;
+    height: 40px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 40px
+}
+
+.videoSlider .case-card .case-video .mute .mute-button {
+    display: none
+}
+
+.videoSlider .case-card .case-video .mute .mute-button.show {
+    display: block
+}
+
+.videoSlider .case-card .case-content {
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+    background: linear-gradient(157.76deg, hsla(210, 9%, 91%, .08) 7.83%, hsla(210, 9%, 96%, .44) 48.87%, hsla(0, 0%, 100%, .18) 90.33%);
+    border-radius: 5px;
+    bottom: 7px;
+    left: 0;
+    margin: 0 auto;
+    opacity: 0;
+    padding: 23px 20px;
+    position: absolute;
+    right: 0;
+    transition: .3s ease;
+    transition-delay: .2s;
+    visibility: hidden;
+    width: calc(100% - 14px)
+}
+
+.videoSlider .case-card .case-content p {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 26px
+}
+
+.videoSlider .case-card .case-content>p {
+    margin-bottom: 15px
+}
+
+.videoSlider .case-card .case-content .case-footer {
+    align-items: center;
+    justify-content: space-between
+}
+
+.videoSlider .case-card .case-content .case-footer p {
+    margin: 0
+}
+
+.videoSlider .case-card .case-content .case-footer .read-case {
+    background: #fff;
+    border-radius: 17.5px;
+    color: #000;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+    max-height: 35px;
+    padding: 9px 20px;
+    transform: scale(1)
+}
+
+.videoSlider .case-card .case-content .case-footer .read-case:hover {
+    transform: scale(.95)
+}
+
+@media(max-width:767px) {
+    .videoSlider .case-card .case-content {
+        bottom: 5px;
+        padding: 18px 16px;
+        width: calc(100% - 10px)
+    }
+
+    .videoSlider .case-card .case-content p {
+        font-size: 12px;
+        line-height: 20px;
+        margin-bottom: 15px;
+        text-align: left
+    }
+}
+
+.videoSlider .slick-slider {
+    position: relative
+}
+
+.videoSlider .slick-slider .slick-arrow {
+    background-color: #000;
+    background-image: url("https://d33wubrfki0l68.cloudfront.net/6f774f34ba9a323f3f45e0782553947339ff3015/018c6/img/chevron.svg");
+    background-position: 50%;
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 50%;
+    bottom: -10px;
+    font-size: 0;
+    height: 40px;
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+    transition: .3s ease;
+    width: 40px;
+    z-index: 4
+}
+
+.videoSlider .slick-slider .slick-arrow.slick-prev {
+    background-image: url("https://d33wubrfki0l68.cloudfront.net/cb234d43cca86d42020f4e420000a18ce542aa18/ae306/img/chevron-left.svg");
+    left: -50px
+}
+
+.videoSlider .slick-slider .slick-arrow.slick-next {
+    right: -50px
+}
+
+.videoSlider .slick-slider .slick-arrow:hover {
+    background-color: #6c5bf2
+}
+
+.videoSlider .slick-slide {
+    transform: scale(1);
+    transition: all 1.3 ease-in-out
+}
+
+.videoSlider .slick-slide.slick-center .case-card {
+    border: 10px solid #fff
+}
+
+.videoSlider .slick-slide.slick-center .case-card .case-content {
+    opacity: 1;
+    visibility: visible
+}
+
+.videoSlider .slick-slide:not(.slick-center) .case-card {
+    box-shadow: none;
+    transform: scale(.88)
+}
+
+.videoSlider .slick-slide:not(.slick-center) .case-card .mute {
+    opacity: 0;
+    visibility: hidden
+}
+
+@media(max-width:767px) {
+    .videoSlider .slick-slide:not(.slick-center) .case-card {
+        transform: scale(.9)
+    }
+}
+
+.videoSlider .video-slider-main .big-gradient-circle {
+    left: -32%;
+    top: -150px
+}
+
+.videoSlider .video-slider-main .big-gradient-circle:nth-child(2) {
+    left: auto;
+    right: 5%
+}
+
+.featured-jobs {
+    padding: 132px 0 170px
+}
+
+@media(max-width:767px) {
+    .featured-jobs {
+        padding: 52px 0 80px
+    }
+}
+
+.featured-jobs .yellow-heading {
+    margin-bottom: 24px
+}
+
+@media(max-width:767px) {
+    .featured-jobs h3 {
+        margin: 0 auto 50px;
+        max-width: 300px
+    }
+}
+
+.featured-jobs .big-gradient-circle {
+    left: 10%;
+    top: 116px
+}
+
+.featured-jobs .big-gradient-circle.red-gradient {
+    left: 50%;
+    top: 350px
+}
+
+.featured-jobs .big-gradient-circle.red-gradient.delay-1 {
+    animation-delay: 1s !important
+}
+
+.featured-jobs .button-purple {
+    display: block;
+    margin: 46px auto 0;
+    max-width: -webkit-max-content;
+    max-width: max-content
+}
+
+.job-card {
+    background-color: #fff;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, .111973);
+    margin: 16px 0;
+    padding: 30px 15px 20px 20px;
+    width: 495px
+}
+
+@media(max-width:767px) {
+    .job-card {
+        margin: 10px 0;
+        width: 360px
+    }
+}
+
+.job-card .job-heading {
+    margin-left: 20px
+}
+
+@media(max-width:767px) {
+    .job-card .job-heading {
+        margin-left: 10px
+    }
+}
+
+.job-card .job-heading h4 {
+    font-weight: 600;
+    margin-bottom: 8px;
+    text-align: start
+}
+
+.job-card .job-heading .job-detail {
+    color: #929292;
+    font-size: 13px;
+    letter-spacing: -.3px;
+    line-height: 20px;
+    margin-bottom: 0;
+    text-align: start
+}
+
+.job-card .tag {
+    border-radius: 40px;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 20px;
+    margin: 8px;
+    padding: 8px 12px
+}
+
+.job-card .tag img {
+    display: inline !important;
+    margin-right: 4px;
+    padding-bottom: 2px
+}
+
+.job-card .tag.salary {
+    background: rgba(6, 203, 135, .06);
+    color: #06cb87
+}
+
+.job-card .tag.location {
+    background: rgba(255, 106, 99, .06);
+    color: #ff6a63
+}
+
+.job-card .tag.experience {
+    background: rgba(255, 187, 0, .06);
+    color: #fb0
+}
+
+.job-card .tag.opening {
+    background: rgba(111, 60, 219, .06);
+    color: #6f3cdb
+}
+
+.job-logo {
+    border: 1px solid #ededed;
+    border-radius: 4px;
+    padding: 4px
+}
+
+.blogHero {
+    padding: 166px 0 100px;
+    position: relative
+}
+
+.blogHero:before {
+    background-color: #f6f5ff;
+    content: "";
+    height: 75%;
+    left: 0;
+    pointer-events: none;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: -1
+}
+
+.blogHero .svg-path {
+    bottom: -100px;
+    left: 0;
+    position: absolute;
+    width: 100%
+}
+
+.blogHero .svg-path.svg-path-2 {
+    bottom: auto;
+    left: auto;
+    right: -220px;
+    text-align: right;
+    top: 120px;
+    z-index: 0
+}
+
+.blogHero .svg-path.svg-path-2 svg {
+    width: 45%
+}
+
+.blogHero .svg-path svg {
+    height: auto;
+    width: 37%
+}
+
+.blogHero .big-gradient-circle.green-gradient {
+    right: 90%;
+    top: 38px
+}
+
+.blogHero .big-gradient-circle.green-gradient.gradient-2 {
+    right: 6%;
+    top: 320px
+}
+
+.blogHero h3 {
+    font-size: 40px;
+    letter-spacing: -1.28px;
+    margin-bottom: 30px
+}
+
+.blogHero .hero-main {
+    background-color: #fff;
+    border-radius: 10px;
+    filter: drop-shadow(0 3px 6px rgba(25, 49, 96, .0812322));
+    max-width: 100%;
+    padding: 67px 52px;
+    width: 1070px
+}
+
+.blogHero .hero-image-box {
+    max-height: 470px;
+    padding-right: 5px;
+    position: relative;
+    width: 100%
+}
+
+.blogHero .hero-image-box .latest-blog-tilted {
+    left: -30px;
+    position: absolute;
+    top: -25px;
+    z-index: 3
+}
+
+.blogHero .hero-image-box .hero-image {
+    width: 100%
+}
+
+.blogHero .hero-contents {
+    align-items: center;
+    max-width: 400px;
+    padding-left: 5px
+}
+
+.blogHero .hero-contents .blog-author {
+    margin-bottom: 20px
+}
+
+.blogHero .hero-contents .blog-author img {
+    margin-right: 9px;
+    width: 28px
+}
+
+.blogHero .hero-contents .blog-author h5 {
+    font-family: Domine, serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+    margin: 0
+}
+
+.blogHero .hero-contents .blog-author h5 span {
+    font-family: Inter;
+    font-weight: 400
+}
+
+.blogHero .hero-contents h3 {
+    font-size: 36px;
+    letter-spacing: normal;
+    line-height: 48px;
+    margin-bottom: 20px
+}
+
+.blogHero .hero-contents p {
+    font-weight: 500;
+    line-height: 26px;
+    margin-bottom: 30px
+}
+
+.blogHero .hero-contents button {
+    padding: 17px 51px 18px
+}
+
+.blogHero .hero-contents button img {
+    margin-left: 8px;
+    transform: translateX(0);
+    transition: all .3s ease 0s
+}
+
+@media(max-width:767px) {
+    .blogHero .svg-path {
+        bottom: 22%;
+        left: 60%;
+        width: 100%
+    }
+
+    .blogHero .svg-path svg {
+        height: auto;
+        transform: scale(3);
+        width: 70%
+    }
+
+    .blogHero {
+        padding: 110px 0 100px
+    }
+
+    .blogHero .big-gradient-circle.green-gradient {
+        right: 80%;
+        top: -100px
+    }
+
+    .blogHero h3 {
+        font-size: 30px;
+        letter-spacing: -1px;
+        line-height: 45px;
+        margin-bottom: 26px
+    }
+
+    .blogHero .hero-main {
+        padding: 20px
+    }
+
+    .blogHero .hero-image-box {
+        margin-bottom: 24px;
+        max-height: 470px;
+        padding-right: 0;
+        position: relative;
+        width: 100%
+    }
+
+    .blogHero .hero-image-box .latest-blog-tilted {
+        left: -35px;
+        top: -30px
+    }
+
+    .blogHero .hero-contents .blog-author {
+        margin-bottom: 12px
+    }
+
+    .blogHero .hero-contents .blog-author img {
+        margin-right: 10px;
+        width: 24px
+    }
+
+    .blogHero .hero-contents h3 {
+        font-size: 24px;
+        letter-spacing: -1px;
+        line-height: 36px;
+        margin-bottom: 12px
+    }
+
+    .blogHero .hero-contents p {
+        font-size: 14px;
+        line-height: 21px;
+        margin-bottom: 26px
+    }
+}
+
+.blogList {
+    padding: 150px 0 100px
+}
+
+.blogList .big-gradient-circle {
+    bottom: 549px;
+    left: 70%
+}
+
+.blogList .big-gradient-circle.red-gradient {
+    left: auto;
+    right: 70%;
+    top: 34%
+}
+
+.blogList .blog-list-heading {
+    font-family: Domine, serif;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 43px;
+    margin-bottom: 50px;
+    max-width: 800px
+}
+
+.blogList .blog-list-heading span {
+    position: relative
+}
+
+.blogList .blog-list-heading span:before {
+    background-image: url("https://d33wubrfki0l68.cloudfront.net/2d699871cce2230a24c01f3fd20d7b98fe39986c/2b1cf/img/yellow-line-stroke.svg");
+    background-position: 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+    content: "";
+    height: 30px;
+    pointer-events: none;
+    position: absolute;
+    right: 0;
+    top: 60%;
+    width: 100%;
+    z-index: -1;
+    z-index: 9
+}
+
+.blogList .blog:nth-child(odd) {
+    padding-right: 10px
+}
+
+.blogList .blog-container {
+    margin-bottom: 100px
+}
+
+.blogList .blog-container .blog-image-wrapper {
+    height: 272px;
+    max-width: 520px;
+    overflow: hidden
+}
+
+.blogList .blog-container .blog-image-wrapper .blog-image {
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    transform: scale(1.2);
+    transition: all .5s linear;
+    width: 100%
+}
+
+.blogList .blog-container:hover .blog-image-wrapper .blog-image {
+    transform: scale(1);
+    transition: all .5s linear
+}
+
+.blogList .blog-container:hover h4,
+.blogList .blog-container:hover p {
+    color: #1a1714
+}
+
+.blogList .blog-container .blog-author {
+    margin-bottom: 24px;
+    margin-top: 30px
+}
+
+.blogList .blog-container .blog-author img {
+    margin-right: 11px;
+    width: 43px
+}
+
+.blogList .blog-container .blog-author h5 {
+    font-family: Domine, serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    margin: 0
+}
+
+.blogList .blog-container .blog-author h5 span {
+    font-family: Inter;
+    font-weight: 400
+}
+
+.blogList .blog-container h4 {
+    font-family: Domine, serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    margin-bottom: 10px;
+    max-width: 460px
+}
+
+.blogList .blog-container p {
+    font-weight: 500;
+    line-height: 26px;
+    margin: 0
+}
+
+.blogList .button {
+    display: block;
+    margin: 17px auto;
+    min-width: 213px
+}
+
+@media(max-width:767px) {
+    .blogList {
+        padding: 12px 0 100px
+    }
+
+    .blogList .big-gradient-circle {
+        bottom: 100px;
+        left: 30%
+    }
+
+    .blogList .big-gradient-circle.red-gradient {
+        left: auto;
+        right: 55%;
+        top: 30%
+    }
+
+    .blogList .blog-list-heading {
+        font-size: 24px;
+        letter-spacing: -1px;
+        line-height: 35px;
+        margin-bottom: 46px
+    }
+
+    .blogList .blog-list-heading span:before {
+        height: 110px;
+        right: 0;
+        top: -100%;
+        width: 100%
+    }
+
+    .blogList .blog-container {
+        margin-bottom: 60px
+    }
+
+    .blogList .blog-container .blog-image {
+        max-height: 272px;
+        width: auto
+    }
+
+    .blogList .blog-container .blog-author {
+        margin-bottom: 12px;
+        margin-top: 24px
+    }
+
+    .blogList .blog-container .blog-author img {
+        margin-right: 10px;
+        width: 24px
+    }
+
+    .blogList .blog-container .blog-author h5 {
+        font-size: 14px;
+        line-height: 21px;
+        margin: 0
+    }
+
+    .blogList .blog-container h4 {
+        font-size: 20px;
+        letter-spacing: -1px;
+        line-height: 30px;
+        margin-bottom: 20px
+    }
+
+    .blogList .blog-container p {
+        font-size: 14px;
+        line-height: 21px
+    }
+
+    .blogList .button {
+        display: block;
+        margin: 0 0 12px;
+        min-width: 213px
+    }
+}
+
+.blogSingleHero .blog-page-rectangle {
+    overflow: hidden;
+    padding: 70px 0 310px;
+    position: relative;
+    text-align: center
+}
+
+.blogSingleHero .blog-page-rectangle-privacy {
+    height: 152px;
+    margin: 70px 0 0;
+    overflow: hidden;
+    position: relative
+}
+
+.blogSingleHero .big-gradient-circle {
+    left: 40%;
+    top: 30%
+}
+
+.blogSingleHero .big-gradient-circle.red-gradient {
+    left: auto;
+    right: 50%;
+    top: -20%
+}
+
+.blogSingleHero .big-gradient-circle.green-gradient {
+    left: 33%;
+    top: -60%
+}
+
+.blogSingleHero h1 {
+    font-size: 40px;
+    letter-spacing: -1.28px;
+    line-height: 62px;
+    margin: 0 auto;
+    max-width: 733px;
+    padding: 86px 0 27px;
+    text-align: center
+}
+
+.blogSingleHero .blog-author {
+    background: #fff;
+    border-radius: 26px;
+    filter: drop-shadow(0 3px 6px rgba(25, 49, 96, .0812322));
+    justify-content: center;
+    margin: 0 auto;
+    min-width: 160px;
+    padding: 11px 14px 9px 12px
+}
+
+.blogSingleHero .blog-author img {
+    margin-right: 4px;
+    width: 32px
+}
+
+.blogSingleHero .blog-author h5 {
+    font-family: Domine, serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 21px;
+    margin: 0
+}
+
+.blogSingleHero .blog-author h5 span {
+    font-family: Inter;
+    font-weight: 400
+}
+
+@media(max-width:767px) {
+    .blogSingleHero .blog-page-rectangle {
+        padding: 70px 20px 264px
+    }
+
+    .blogSingleHero h1 {
+        font-size: 30px;
+        letter-spacing: -1px;
+        line-height: 45px;
+        padding: 40px 0 24px
+    }
+
+    .blogSingleHero .blog-author {
+        border-radius: 100px;
+        margin: 0 auto;
+        max-width: 235px;
+        padding: 8px 16px
+    }
+
+    .blogSingleHero .blog-author img {
+        margin-right: 8px;
+        width: 24px
+    }
+
+    .blogSingleHero .blog-author h5 {
+        font-size: 14px;
+        letter-spacing: -.448px;
+        line-height: 16px
+    }
+
+    .blogSingleHero .blog-author h5 span {
+        line-height: 17px
+    }
+
+    .blogSingleHero .big-gradient-circle.red-gradient {
+        right: -50%
+    }
+
+    .blogSingleHero .big-gradient-circle.green-gradient {
+        left: -33%
+    }
+}
+
+.blogPage {
+    margin-top: -244px
+}
+
+.blogPage .small-container-blog {
+    margin: 0 auto;
+    max-width: 970px
+}
+
+.blogPage .blog-page-image {
+    max-height: 535px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: center;
+    object-position: center;
+    width: 100%
+}
+
+.blogPage .blog-page-content-area {
+    display: flex
+}
+
+.blogPage .link-logo {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 125px;
+    padding-top: 73px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    width: 35px
+}
+
+.blogPage .link-logo a {
+    height: 35px;
+    transition: .3s ease;
+    width: 35px
+}
+
+.blogPage .link-logo a svg {
+    transform: scale(.875)
+}
+
+.blogPage .link-logo a svg circle {
+    fill: #000;
+    transition: all 3s
+}
+
+.blogPage .link-logo a:hover svg circle {
+    fill: url(#paint0_linear)
+}
+
+.blogPage .link-logo a:not(:last-child) {
+    margin-bottom: 26px
+}
+
+.blogPage .blog-page-content {
+    display: block;
+    margin-bottom: 100px;
+    margin-top: 73px;
+    max-width: 735px;
+    padding-left: 45px
+}
+
+.blogPage .blog-page-content a {
+    color: #6c5bf2
+}
+
+.blogPage .blog-page-content ol,
+.blogPage .blog-page-content ul {
+    padding-left: 25px
+}
+
+.blogPage .blog-page-content ol li,
+.blogPage .blog-page-content ul li {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    margin-bottom: 20px
+}
+
+.blogPage .blog-page-content h3,
+.blogPage .blog-page-content h5 {
+    font-family: Domine, serif;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 38px;
+    margin: 64px 0 15px
+}
+
+.blogPage .blog-page-content h2,
+.blogPage .blog-page-content h4 {
+    font-family: Domine, serif;
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 38px;
+    margin: 64px 0 15px
+}
+
+.blogPage .blog-page-content-privacy {
+    display: block;
+    margin-bottom: 100px;
+    margin-top: 53px
+}
+
+.blogPage .blog-page-content-privacy a {
+    color: #6c5bf2
+}
+
+.blogPage .blog-page-content-privacy ol,
+.blogPage .blog-page-content-privacy ul {
+    padding-left: 25px
+}
+
+.blogPage .blog-page-content-privacy ol li,
+.blogPage .blog-page-content-privacy ul li {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    margin-bottom: 20px
+}
+
+.blogPage .blog-page-content-privacy h3,
+.blogPage .blog-page-content-privacy h5 {
+    font-family: Domine, serif;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 38px;
+    margin: 64px 0 15px
+}
+
+.blogPage .blog-page-content-privacy h2,
+.blogPage .blog-page-content-privacy h4 {
+    font-family: Domine, serif;
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 38px;
+    margin: 64px 0 15px
+}
+
+.blogPage p {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px
+}
+
+.blogPage h3,
+.blogPage h5 {
+    font-family: Domine, serif;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 38px
+}
+
+.blogPage .blog-endpage-rectangle {
+    height: 375px;
+    overflow: hidden;
+    position: relative
+}
+
+.blogPage .blog-endpage-rectangle .green-oval-gradient,
+.blogPage .blog-endpage-rectangle .red-oval-gradient {
+    height: 855px;
+    position: absolute;
+    width: 2157.72px;
+    z-index: -1
+}
+
+.blogPage .blog-endpage-rectangle .red-oval-gradient {
+    background: radial-gradient(49.66% 49.66% at 50% 50%, #fedcf4 0, rgba(254, 221, 232, 0) 100%);
+    right: 3%;
+    top: -290px
+}
+
+.blogPage .blog-endpage-rectangle .green-oval-gradient {
+    background: radial-gradient(49.13% 49.13% at 50% 50.53%, rgba(0, 214, 144, .162) 0, rgba(0, 214, 144, 0) 100%);
+    left: 6%;
+    top: -290px
+}
+
+.blogPage .blog-endpage-rectangle h3 {
+    font-size: 36px;
+    line-height: 43px;
+    margin: 115px auto 27px;
+    max-width: 610px;
+    text-align: center
+}
+
+.blogPage .blog-endpage-rectangle .button {
+    background: #fff;
+    border-radius: 4px;
+    color: #8048f7;
+    display: block;
+    filter: drop-shadow(0 3px 6px rgba(25, 49, 96, .0812322));
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    margin: 0 auto 160px;
+    max-width: 213px;
+    padding: 18px 30px
+}
+
+@media(max-width:767px) {
+    .blogPage {
+        margin-top: -214px
+    }
+
+    .blogPage .small-container-blog {
+        padding: 0 20px
+    }
+
+    .blogPage .blog-page-image {
+        height: 400px;
+        -o-object-fit: cover;
+        object-fit: cover;
+        -o-object-position: 30% 0;
+        object-position: 30% 0;
+        width: 100%
+    }
+
+    .blogPage .blog-page-content-area {
+        display: block
+    }
+
+    .blogPage .link-logo {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 0 auto;
+        padding-bottom: 40px;
+        padding-top: 40px;
+        position: static;
+        top: 0;
+        width: 184px
+    }
+
+    .blogPage .link-logo a,
+    .blogPage .link-logo a svg {
+        height: 40px;
+        width: 40px
+    }
+
+    .blogPage .link-logo a:not(:last-child) {
+        margin-bottom: 0
+    }
+
+    .blogPage .blog-page-content {
+        display: block;
+        margin-bottom: 64px;
+        margin-top: 0;
+        max-width: 735px;
+        padding-left: 0
+    }
+
+    .blogPage .blog-page-content-privacy ol li,
+    .blogPage .blog-page-content-privacy p,
+    .blogPage .blog-page-content-privacy ul li,
+    .blogPage .blog-page-content ol li,
+    .blogPage .blog-page-content p,
+    .blogPage .blog-page-content ul li {
+        font-size: 14px;
+        line-height: 26px
+    }
+
+    .blogPage .blog-page-content-privacy h3,
+    .blogPage .blog-page-content-privacy h5,
+    .blogPage .blog-page-content h3,
+    .blogPage .blog-page-content h5 {
+        font-size: 18px;
+        line-height: 24px
+    }
+
+    .blogPage .blog-page-content-privacy h2,
+    .blogPage .blog-page-content-privacy h4,
+    .blogPage .blog-page-content h2,
+    .blogPage .blog-page-content h4 {
+        font-size: 24px
+    }
+
+    .blogPage .blog-page-content-privacy h2,
+    .blogPage .blog-page-content-privacy h3,
+    .blogPage .blog-page-content-privacy h4,
+    .blogPage .blog-page-content-privacy h5,
+    .blogPage .blog-page-content h2,
+    .blogPage .blog-page-content h3,
+    .blogPage .blog-page-content h4,
+    .blogPage .blog-page-content h5 {
+        line-height: 36px;
+        margin-top: 56px
+    }
+
+    .blogPage ol li,
+    .blogPage p,
+    .blogPage ul li {
+        font-size: 14px;
+        line-height: 26px
+    }
+
+    .blogPage h5 {
+        line-height: 36px
+    }
+
+    .blogPage .blog-endpage-rectangle {
+        height: 359px
+    }
+
+    .blogPage .blog-endpage-rectangle .green-oval-gradient,
+    .blogPage .blog-endpage-rectangle .purple-oval-gradient,
+    .blogPage .blog-endpage-rectangle .red-oval-gradient {
+        height: 411px;
+        position: absolute;
+        width: 687px;
+        z-index: -1
+    }
+
+    .blogPage .blog-endpage-rectangle .red-oval-gradient {
+        right: 5%;
+        top: -50px
+    }
+
+    .blogPage .blog-endpage-rectangle .green-oval-gradient {
+        left: -33%;
+        top: -124px
+    }
+
+    .blogPage .blog-endpage-rectangle .purple-oval-gradient {
+        background: radial-gradient(50% 50% at 50% 50%, #b3b7ff 0, rgba(222, 221, 254, .082) 100%);
+        filter: blur(19.8346px);
+        left: 3%;
+        top: 134px
+    }
+
+    .blogPage .blog-endpage-rectangle h3 {
+        font-size: 24px;
+        letter-spacing: -1px;
+        line-height: 40px;
+        margin: 96px auto 32px;
+        padding: 0 20px
+    }
+
+    .blogPage .blog-endpage-rectangle .button {
+        margin: 0 auto 96px;
+        max-width: 213px;
+        padding: 18px 30px
+    }
+}
+
+.blog-single-slider-main {
+    padding: 150px 0 0
+}
+
+@media(max-width:767px) {
+    .blog-single-slider-main {
+        padding-top: 80px
+    }
+}
+
+.blog-single-slider-main .heading {
+    font-size: 36px;
+    line-height: 43px;
+    margin-bottom: 70px
+}
+
+.blog-single-slider-main .blogList {
+    padding-top: 0
+}
+
+.blog-single-slider-main .blogList .slick-list {
+    padding-left: 0 !important
+}
+
+.blog-single-slider-main .blogList .slick-slider {
+    position: relative
+}
+
+.blog-single-slider-main .blogList .slick-slider .slick-arrow {
+    background-color: #000;
+    background-image: url("https://d33wubrfki0l68.cloudfront.net/6f774f34ba9a323f3f45e0782553947339ff3015/018c6/img/chevron.svg");
+    background-position: 50%;
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 50%;
+    font-size: 0;
+    height: 40px;
+    left: auto;
+    position: absolute;
+    top: -110px;
+    transition: .3s ease;
+    width: 40px;
+    z-index: 4
+}
+
+.blog-single-slider-main .blogList .slick-slider .slick-arrow.slick-prev {
+    background-image: url("https://d33wubrfki0l68.cloudfront.net/cb234d43cca86d42020f4e420000a18ce542aa18/ae306/img/chevron-left.svg");
+    right: calc(50vw - 545px)
+}
+
+.blog-single-slider-main .blogList .slick-slider .slick-arrow.slick-next {
+    left: auto;
+    right: calc(50vw - 595px)
+}
+
+.blog-single-slider-main .blogList .slick-slider .slick-arrow:hover {
+    background-color: #6c5bf2
+}
+
+@media(max-width:1200px) {
+    .blog-single-slider-main .blogList .slick-slider .slick-arrow.slick-prev {
+        right: 70px
+    }
+
+    .blog-single-slider-main .blogList .slick-slider .slick-arrow.slick-next {
+        right: 20px
+    }
+}
+
+@media(max-width:767px) {
+    .blog-single-slider-main .blogList .slick-slider .slick-arrow {
+        bottom: -20px;
+        right: auto;
+        top: auto
+    }
+
+    .blog-single-slider-main .blogList .slick-slider .slick-arrow.slick-prev {
+        left: 20px
+    }
+
+    .blog-single-slider-main .blogList .slick-slider .slick-arrow.slick-next {
+        left: 70px
+    }
+}
+
+.blog-single-slider-main .blog-single-slider {
+    margin: 0 30px
+}
+
+@media(max-width:990px) {
+    .blog-single-slider-main .blog-single-slider {
+        margin: 0 15px
+    }
+}
+
+.blog-single-slider-main .blog-single-slider .blog-image-wrapper {
+    max-width: 100% !important
+}
+
+.close-overlay,
+.modal-job {
+    align-items: center;
+    bottom: 0;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    left: 0;
+    overflow: hidden;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: 99998
+}
+
+.close-overlay .close-overlay,
+.modal-job .close-overlay {
+    background-color: rgba(0, 0, 0, .4);
+    display: block
+}
+
+.close-overlay .close-overlay svg,
+.modal-job .close-overlay svg {
+    position: absolute;
+    right: 30px;
+    top: 20px
+}
+
+.close-overlay .close-overlay svg path,
+.modal-job .close-overlay svg path {
+    stroke: #fff
+}
+
+.close-overlay .job,
+.modal-job .job {
+    background-color: #fff;
+    border-radius: 10px;
+    max-height: 95vh;
+    overflow: auto;
+    position: relative;
+    width: 1028px;
+    z-index: 99999
+}
+
+@media(max-width:767px) {
+
+    .close-overlay .job,
+    .modal-job .job {
+        max-height: 100vh
+    }
+}
+
+.close-overlay .job h5,
+.modal-job .job h5 {
+    color: #070e11;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: -.3px;
+    line-height: 20px;
+    margin-bottom: 12px
+}
+
+.close-overlay .job p,
+.modal-job .job p {
+    color: #070e11;
+    font-size: 12px;
+    letter-spacing: -.3px;
+    line-height: 22px
+}
+
+.close-overlay .job .job-header,
+.modal-job .job .job-header {
+    background: linear-gradient(86.36deg, #06cb87 -2.01%, #02cd9c 99.63%), linear-gradient(146.6deg, #6c5bf2 10.2%, #8841f9 96.67%), linear-gradient(278.87deg, #ffc1d1 8.78%, #dedfff 48.73%, #a0ffe6 89.7%);
+    height: 128px;
+    position: relative;
+    z-index: -1
+}
+
+@media(max-width:767px) {
+
+    .close-overlay .job .job-header,
+    .modal-job .job .job-header {
+        height: 142px
+    }
+}
+
+.close-overlay .job .job-header:after,
+.modal-job .job .job-header:after {
+    background-image: url(/img/jobs/job-bg.svg);
+    background-position: 99%;
+    background-repeat: no-repeat;
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%
+}
+
+@media(max-width:767px) {
+
+    .close-overlay .job .job-header:after,
+    .modal-job .job .job-header:after {
+        background-image: url(/img/jobs/job-bg-mob.svg)
+    }
+}
+
+.close-overlay .job .job-header .back-mob,
+.modal-job .job .job-header .back-mob {
+    display: none
+}
+
+@media(max-width:767px) {
+
+    .close-overlay .job .job-header .back-mob,
+    .modal-job .job .job-header .back-mob {
+        background: transparent;
+        border: none;
+        display: block;
+        left: 28px;
+        position: absolute;
+        top: 24px;
+        z-index: 99999
+    }
+}
+
+.close-overlay .job .job-main,
+.modal-job .job .job-main {
+    padding: 34px 32px 32px 25px
+}
+
+@media(max-width:767px) {
+
+    .close-overlay .job .job-main,
+    .modal-job .job .job-main {
+        padding: 0 20px 24px
+    }
+}
+
+.close-overlay .job .job-main .job-intro,
+.modal-job .job .job-main .job-intro {
+    background: #fff;
+    border: 1px solid #e5e5e5;
+    border-radius: 12px;
+    margin: -100px 25px 0;
+    padding: 12px
+}
+
+@media(max-width:767px) {
+
+    .close-overlay .job .job-main .job-intro,
+    .modal-job .job .job-main .job-intro {
+        margin: -84px 0 24px
+    }
+}
+
+.close-overlay .job .job-main .job-intro .no-video,
+.modal-job .job .job-main .job-intro .no-video {
+    align-items: center;
+    background-color: #e9e7e4;
+    border-radius: 12px;
+    display: flex;
+    height: 195px;
+    justify-content: center;
+    width: 292px
+}
+
+.close-overlay .job .job-main .job-intro .no-video p,
+.modal-job .job .job-main .job-intro .no-video p {
+    color: #727478;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-top: 80px;
+    max-width: 190px;
+    text-align: center
+}
+
+@media(max-width:767px) {
+
+    .close-overlay .job .job-main .job-intro .no-video,
+    .modal-job .job .job-main .job-intro .no-video {
+        height: 160px
+    }
+}
+
+.close-overlay .job .job-main .job-intro h5,
+.close-overlay .job .job-main .job-intro p,
+.modal-job .job .job-main .job-intro h5,
+.modal-job .job .job-main .job-intro p {
+    color: #070e11;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: -.3px;
+    line-height: 32px;
+    margin: 0
+}
+
+.close-overlay .job .job-main .job-intro p,
+.modal-job .job .job-main .job-intro p {
+    font-weight: 400;
+    letter-spacing: -.1px
+}
+
+.close-overlay .job .job-main .job-name,
+.modal-job .job .job-main .job-name {
+    width: calc(100% - 380px)
+}
+
+@media(max-width:767px) {
+
+    .close-overlay .job .job-main .job-name,
+    .modal-job .job .job-main .job-name {
+        width: auto
+    }
+}
+
+.close-overlay .job .job-main .job-name>.border-top,
+.modal-job .job .job-main .job-name>.border-top {
+    border-top: 1px solid #ededed;
+    margin-top: 30px;
+    padding-top: 32px
+}
+
+@media(max-width:767px) {
+
+    .close-overlay .job .job-main .job-name>.border-top,
+    .modal-job .job .job-main .job-name>.border-top {
+        margin-top: 24px;
+        padding-top: 24px
+    }
+}
+
+.close-overlay .job .job-main .job-name .modal-logo,
+.modal-job .job .job-main .job-name .modal-logo {
+    max-width: 50px
+}
+
+@media(max-width:767px) {
+
+    .close-overlay .job .job-main .job-name .perks,
+    .modal-job .job .job-main .job-name .perks {
+        margin-top: 16px
+    }
+
+    .close-overlay .job .job-main .job-name .perks+p,
+    .modal-job .job .job-main .job-name .perks+p {
+        margin-bottom: 0
+    }
+}
+
+.close-overlay .job .job-main .job-name .job-heading,
+.modal-job .job .job-main .job-name .job-heading {
+    margin-left: 20px
+}
+
+.close-overlay .job .job-main .job-name .job-heading h4,
+.modal-job .job .job-main .job-name .job-heading h4 {
+    font-weight: 700;
+    margin-bottom: 8px
+}
+
+@media(max-width:767px) {
+
+    .close-overlay .job .job-main .job-name .job-heading h4,
+    .modal-job .job .job-main .job-name .job-heading h4 {
+        font-weight: 600;
+        margin-bottom: 4px
+    }
+}
+
+.close-overlay .job .job-main .job-name .job-heading .job-detail,
+.modal-job .job .job-main .job-name .job-heading .job-detail {
+    color: #929292;
+    font-size: 14px;
+    letter-spacing: -.3px;
+    line-height: 20px;
+    margin-bottom: 0
+}
+
+.close-overlay .job .job-main .job-name .tag,
+.modal-job .job .job-main .job-name .tag {
+    border: 1px solid #ededed;
+    border-radius: 53px;
+    margin-bottom: 32px;
+    margin-right: 8px;
+    padding: 2px 12px
+}
+
+@media(max-width:767px) {
+
+    .close-overlay .job .job-main .job-name .tag,
+    .modal-job .job .job-main .job-name .tag {
+        margin-bottom: 8px
+    }
+}
+
+.close-overlay .job .job-main .job-name .tag.more,
+.modal-job .job .job-main .job-name .tag.more {
+    background-color: #000;
+    color: #fff
+}
+
+.close-overlay .job .job-description,
+.modal-job .job .job-description {
+    border-bottom: 6px solid #f3f3f3;
+    border-top: 6px solid #f3f3f3;
+    padding: 32px 25px
+}
+
+@media(max-width:767px) {
+
+    .close-overlay .job .job-description,
+    .modal-job .job .job-description {
+        padding: 24px 20px 4px
+    }
+}
+
+.close-overlay .job .job-description a,
+.modal-job .job .job-description a {
+    color: #551a8b;
+    text-decoration: underline
+}
+
+.close-overlay .job .job-recruiters,
+.modal-job .job .job-recruiters {
+    padding: 32px 25px 88px
+}
+
+@media(max-width:767px) {
+
+    .close-overlay .job .job-recruiters,
+    .modal-job .job .job-recruiters {
+        padding: 24px 20px 88px
+    }
+
+    .close-overlay .job .job-recruiters>.flex-row,
+    .modal-job .job .job-recruiters>.flex-row {
+        -ms-overflow-style: none;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        padding-bottom: 10px;
+        scrollbar-width: none
+    }
+}
+
+@media(max-width:767px) {
+
+    .close-overlay .job .job-recruiters>.flex-row::-webkit-scrollbar,
+    .modal-job .job .job-recruiters>.flex-row::-webkit-scrollbar {
+        display: none
+    }
+}
+
+.close-overlay .job .job-recruiters .recruiter-card,
+.modal-job .job .job-recruiters .recruiter-card {
+    border: 1.2px solid #f3f2f0;
+    border-radius: 8px;
+    margin-right: 10px;
+    min-width: 228px;
+    padding: 14px
+}
+
+.close-overlay .job .job-recruiters .recruiter-card img,
+.modal-job .job .job-recruiters .recruiter-card img {
+    border-radius: 50%;
+    height: 32px;
+    margin-right: 8px;
+    width: 32px
+}
+
+.close-overlay .job .job-recruiters .recruiter-card h5,
+.modal-job .job .job-recruiters .recruiter-card h5 {
+    font-weight: 500
+}
+
+.close-overlay .job .job-recruiters .recruiter-card h5,
+.close-overlay .job .job-recruiters .recruiter-card p,
+.modal-job .job .job-recruiters .recruiter-card h5,
+.modal-job .job .job-recruiters .recruiter-card p {
+    margin-bottom: 0
+}
+
+.close-overlay .job .apply-button,
+.modal-job .job .apply-button {
+    border-radius: 0;
+    bottom: 2.5%;
+    display: block;
+    font-size: 14px;
+    height: 48px;
+    line-height: 24px;
+    max-width: 1028px;
+    padding: 12px 0;
+    position: fixed;
+    width: 100%
+}
+
+@media(max-width:767px) {
+
+    .close-overlay .job .apply-button,
+    .modal-job .job .apply-button {
+        bottom: 0
+    }
+}
+
+.close-overlay .job .apply-button:hover,
+.modal-job .job .apply-button:hover {
+    transform: none
+}
+
+.close-overlay .icon,
+.modal-job .icon {
+    color: #070e11;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: -.3px;
+    line-height: 20px
+}
+
+.close-overlay .icon img,
+.modal-job .icon img {
+    margin-right: 6px;
+    vertical-align: text-top
+}
+
+.intro-video {
+    margin-bottom: 16px;
+    position: relative
+}
+
+.intro-video img,
+.intro-video video {
+    border-radius: 12px;
+    max-height: 195px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: 10% 10%;
+    object-position: 10% 10%;
+    width: 292px
+}
+
+@media(max-width:767px) {
+
+    .intro-video img,
+    .intro-video video {
+        width: 100vh
+    }
+}
+
+.intro-video .play-button {
+    background-color: transparent;
+    background-image: url(/img/jobs/play.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: transparent;
+    height: 40px;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transition: all .3s ease-in-out;
+    width: 40px
+}
+
+.intro-video .play-button.pause {
+    background-image: url(/img/jobs/pause.svg);
+    opacity: 0;
+    visibility: hidden
+}
+
+@media(max-width:767px) {
+    .intro-video .play-button.pause {
+        opacity: 1;
+        visibility: visible
+    }
+}
+
+.intro-video:hover .pause {
+    opacity: 1;
+    visibility: visible
+}
+
+.description_job_modal {
+    font-family: Inter;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: -.1px;
+    line-height: 20px
+}
+
+.description_job_modal h1 {
+    font-size: 1.2rem;
+    font-weight: 800
+}
+
+.description_job_modal h2 {
+    font-size: 1rem;
+    font-weight: 700
+}
+
+.description_job_modal h3 {
+    font-size: 1rem;
+    font-weight: 600
+}
+
+.description_job_modal li,
+.description_job_modal p {
+    font-size: .8rem;
+    font-weight: 600
+}
+
+.modal-sign-in {
+    align-items: center;
+    bottom: 0;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    left: 0;
+    overflow: hidden;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: 99998
+}
+
+.modal-sign-in .close-overlay {
+    background-color: rgba(0, 0, 0, .4);
+    display: block
+}
+
+.modal-sign-in .sign-in {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, .05);
+    padding: 40px;
+    position: relative;
+    z-index: 99999
+}
+
+@media(max-width:767px) {
+    .modal-sign-in .sign-in {
+        padding: 40px 16px
+    }
+}
+
+.modal-sign-in .sign-in .back {
+    background: transparent;
+    border: none;
+    position: absolute;
+    right: 20px;
+    top: 15px
+}
+
+.modal-sign-in .sign-in h4 {
+    color: #070e11;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 43px;
+    text-align: center
+}
+
+.modal-sign-in .sign-in .button {
+    display: block;
+    margin-bottom: 12px;
+    min-width: 388px;
+    padding: 15px
+}
+
+@media(max-width:767px) {
+    .modal-sign-in .sign-in .button {
+        min-width: 303px
+    }
+}
+
+.modal-sign-in .sign-in .button img {
+    margin-right: 8px;
+    max-width: 20px
+}
+
+.modal-sign-in .sign-in .sign-in-footer {
+    color: #929292;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 20px;
+    margin: 0;
+    text-align: center
+}
+
+.modal-sign-in .sign-in .sign-in-footer a {
+    color: #551a8b
+}
+
+.close-overlay,
+.modal-video {
+    align-items: center;
+    bottom: 0;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    left: 0;
+    overflow: hidden;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: 99998
+}
+
+.close-overlay .close-overlay,
+.modal-video .close-overlay {
+    background-color: rgba(0, 0, 0, .4);
+    display: block
+}
+
+.close-overlay .close-overlay svg,
+.modal-video .close-overlay svg {
+    position: absolute;
+    right: 30px;
+    top: 20px
+}
+
+@media(max-width:767px) {
+
+    .close-overlay .close-overlay svg,
+    .modal-video .close-overlay svg {
+        right: 25px
+    }
+}
+
+.close-overlay .close-overlay svg path,
+.modal-video .close-overlay svg path {
+    stroke: #fff
+}
+
+.close-overlay .video-box,
+.modal-video .video-box {
+    max-height: 95vh;
+    overflow: auto;
+    position: relative;
+    width: 1224px;
+    z-index: 99999
+}
+
+@media(max-width:767px) {
+
+    .close-overlay .video-box,
+    .modal-video .video-box {
+        max-height: 100vh
+    }
+}
+
+.close-overlay .video-box .intro-video,
+.modal-video .video-box .intro-video {
+    margin-bottom: 16px;
+    position: relative;
+    text-align: center
+}
+
+.close-overlay .video-box .intro-video video,
+.modal-video .video-box .intro-video video {
+    border-radius: 5px;
+    max-height: 90vh;
+    -o-object-fit: cover;
+    object-fit: cover;
+    width: 100%
+}
+
+@media(max-width:767px) {
+
+    .close-overlay .video-box .intro-video video,
+    .modal-video .video-box .intro-video video {
+        width: 100%
+    }
+}
+
+.close-overlay .video-box .intro-video .play-button,
+.modal-video .video-box .intro-video .play-button {
+    height: 56px;
+    width: 56px
+}
+
+.jobs-hero {
+    overflow: hidden;
+    padding: 188px 0;
+    position: relative
+}
+
+@media(max-width:767px) {
+    .jobs-hero {
+        padding: 110px 0;
+        text-align: center
+    }
+}
+
+.jobs-hero .big-gradient-circle {
+    left: 70%;
+    top: 116px
+}
+
+.jobs-hero .hero-heading {
+    margin-bottom: 20px;
+    max-width: 470px;
+    padding-top: 22px
+}
+
+.jobs-hero .hero-heading span {
+    position: relative
+}
+
+.jobs-hero .hero-heading span:before {
+    background-image: url(/img/jobs/circle-stroke-1.svg);
+    background-position: 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+    bottom: -39px;
+    content: "";
+    height: 127px;
+    left: -14px;
+    pointer-events: none;
+    position: absolute;
+    width: 140%;
+    z-index: 9
+}
+
+@media(max-width:767px) {
+    .jobs-hero .hero-heading span:before {
+        bottom: -48px;
+        left: -8px
+    }
+}
+
+@media(max-width:400px) {
+    .jobs-hero .hero-heading span:before {
+        left: -198px;
+        width: 82px
+    }
+}
+
+.jobs-hero .hero-content {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 31px;
+    margin-bottom: 32px;
+    max-width: 386px
+}
+
+@media(max-width:767px) {
+    .jobs-hero .hero-content {
+        font-size: 16px;
+        line-height: 24px
+    }
+}
+
+.jobs-hero .button-purple {
+    margin-right: 10px
+}
+
+@media(max-width:767px) {
+    .jobs-hero .button-purple {
+        padding: 18px 20px
+    }
+
+    .jobs-hero .button {
+        min-width: 162px
+    }
+}
+
+.jobs-hero .hero-image {
+    border-radius: 4px;
+    box-shadow: 24px 18px #fb0
+}
+
+@media(max-width:767px) {
+    .jobs-hero .hero-image {
+        box-shadow: 20px 16px #fb0;
+        margin-bottom: 56px
+    }
+}
+
+.jobs-main {
+    padding-bottom: 160px;
+    position: relative
+}
+
+.jobs-main .gradient-container {
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%
+}
+
+.jobs-main .gradient-container .big-gradient-circle {
+    right: 70%;
+    top: 56px
+}
+
+.jobs-main .gradient-container .big-gradient-circle.green-gradient {
+    right: -30%;
+    top: 50%
+}
+
+.jobs-main .gradient-container .big-gradient-circle.red-gradient {
+    top: 70%
+}
+
+.jobs-main h3 {
+    font-size: 28px;
+    letter-spacing: 0;
+    line-height: 43px
+}
+
+@media(max-width:767px) {
+    .jobs-main h3 {
+        font-size: 24px;
+        line-height: 35px
+    }
+}
+
+.jobs-main h3 span {
+    position: relative
+}
+
+.jobs-main h3 span:after {
+    background-image: url(/img/jobs/stroke.svg);
+    background-position: 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+    bottom: -8px;
+    content: "";
+    height: 20px;
+    left: 0;
+    pointer-events: none;
+    position: absolute;
+    width: 100%;
+    z-index: 9
+}
+
+.jobs-main .job-card {
+    margin: 12px 10px 12px 0;
+    padding: 30px 16px 24px;
+    position: relative;
+    width: 100%
+}
+
+@media(max-width:767px) {
+    .jobs-main .job-card {
+        margin: 20px 0;
+        padding: 24px 16px
+    }
+}
+
+.jobs-main .job-card .job-card-overlay {
+    background: transparent;
+    border: none;
+    bottom: 0;
+    display: block;
+    height: 100%;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%
+}
+
+.jobs-main .job-card .job-heading {
+    text-align: start;
+    width: calc(100% - 88px)
+}
+
+.jobs-main .job-card .job-heading h4 {
+    display: flex;
+    justify-content: space-between
+}
+
+.jobs-main .job-card .job-heading h4 a {
+    position: relative;
+    z-index: 1
+}
+
+.jobs-main .job-card .job-heading h4 a .star {
+    text-align: baseline
+}
+
+.jobs-main .job-card .tag {
+    margin-bottom: 16px
+}
+
+@media(max-width:767px) {
+    .jobs-main .job-card .tag {
+        margin: 0 8px 12px 0
+    }
+}
+
+.jobs-main .job-card .border {
+    background: #fff;
+    border: 1px solid #ededed;
+    border-radius: 4px;
+    padding: 8px
+}
+
+@media(max-width:767px) {
+    .jobs-main .job-card .border {
+        border: none;
+        margin-top: 20px
+    }
+}
+
+.jobs-main .job-card .border .job-footer {
+    color: #929292;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: -.1px;
+    line-height: 20px;
+    margin: 10px 0 10px 10px;
+    max-width: 518px
+}
+
+.jobs-main .job-card .border .button-white {
+    min-width: -webkit-max-content;
+    min-width: max-content;
+    padding: 10px 16px
+}
+
+@media(max-width:767px) {
+    .jobs-main .job-card .border .button-white {
+        width: 100%
+    }
+}
+
+.jobs-main .job-card .border .watch-video-button {
+    padding: 10px 8px 10px 12px
+}
+
+.jobs-main .job-card .border .watch-video-button img {
+    margin-right: 4px;
+    max-width: 20px
+}
+
+@media(max-width:767px) {
+    .jobs-main .job-card .border .watch-video-button {
+        margin-bottom: 12px
+    }
+}
+
+.jobs-main .no-results {
+    position: relative
+}
+
+.jobs-main .no-results .no-results-text {
+    align-items: center;
+    bottom: 12%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    position: absolute;
+    text-align: center;
+    width: 100%
+}
+
+.jobs-main .no-results .no-results-text p {
+    color: #929292;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: -.3px;
+    line-height: 24px;
+    margin: 0;
+    max-width: 411px
+}
+
+.jobs-main .no-results .no-results-text p a {
+    color: #6f3cdb;
+    font-weight: 600
+}
+
+@media(max-width:767px) {
+    .jobs-main .no-results .no-results-text {
+        bottom: 5%
+    }
+
+    .jobs-main .no-results .no-results-text p {
+        font-size: 14px
+    }
+}
+
+.jobs-main .filter-button {
+    min-width: 100%
+}
+
+.jobs-main .filter-button svg {
+    margin-right: 10px
+}
+
+.jobs-main .clear-filter {
+    background: transparent;
+    border: none;
+    color: #929292;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    margin: 0
+}
+
+.jobs-main .clear-filter img {
+    margin-right: 10px
+}
+
+.jobs-main .job-filter {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, .111973);
+    margin-bottom: 24px;
+    margin-top: 12px;
+    padding: 24px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 50px;
+    transition: all .3s ease
+}
+
+@media(max-width:767px) {
+    .jobs-main .job-filter {
+        margin: 0;
+        max-height: 0;
+        opacity: 0;
+        visibility: hidden
+    }
+
+    .jobs-main .job-filter.open {
+        height: -webkit-max-content;
+        height: max-content;
+        margin: 24px 0;
+        max-height: 1000px;
+        opacity: 1;
+        visibility: visible
+    }
+}
+
+.jobs-main .job-filter h4 {
+    font-weight: 600;
+    margin-bottom: 16px
+}
+
+.jobs-main .job-filter input {
+    background: #fff;
+    border: 1px solid #ededed;
+    border-radius: 4px;
+    color: #929292;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: -.1px;
+    line-height: 20px;
+    margin: 0 0 12px;
+    padding: 18px
+}
+
+.jobs-main .job-filter input:focus {
+    border-color: #6f3cdb;
+    color: #000
+}
+
+.jobs-main .job-filter .filter-tag {
+    align-items: center;
+    background: rgba(7, 14, 17, .06);
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-between;
+    padding: 6px 0 6px 8px;
+    width: -webkit-max-content;
+    width: max-content
+}
+
+.jobs-main .job-filter .filter-tag p {
+    color: #070e11;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    margin: 0 5px 0 0
+}
+
+.jobs-main .job-filter .filter-tag button {
+    background-color: none;
+    background-image: url(/img/jobs/cross.svg);
+    background-repeat: no-repeat;
+    background-size: 10px;
+    border: none;
+    height: 10px;
+    width: 20px
+}
+
+.jobs-main .job-filter .border-top {
+    border-top: 1px solid #f7f7f7;
+    margin-top: 24px;
+    padding-top: 24px
+}
+
+.jobs-main .job-filter .checkbox {
+    margin-bottom: 15px
+}
+
+.jobs-main .job-filter .checkbox input {
+    display: none
+}
+
+.jobs-main .job-filter .checkbox label {
+    cursor: pointer;
+    padding-left: 35px;
+    position: relative
+}
+
+.jobs-main .job-filter .checkbox label:before {
+    border: 1px solid #d9d9d9;
+    border-radius: 2px;
+    content: "";
+    height: 20px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    transition: .3s ease;
+    width: 20px
+}
+
+.jobs-main .job-filter .checkbox label:after {
+    background-image: url(/img/jobs/check.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    content: "";
+    height: 9px;
+    left: 5px;
+    position: absolute;
+    top: 30%;
+    transform: scale(0);
+    transition: .3s ease;
+    width: 12px
+}
+
+.jobs-main .job-filter .checkbox input:checked+label:before {
+    background-color: #6f3cdb;
+    border-color: #6f3cdb
+}
+
+.jobs-main .job-filter .checkbox input:checked+label:after {
+    transform: scale(1)
+}
+
+.jobs-main .job-filter .checkbox label {
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: -.075px;
+    line-height: 22px;
+    margin: 0
+}
+
+.jobs-main .job-filter .button {
+    display: block;
+    margin-top: 24px;
+    min-width: -webkit-max-content;
+    min-width: max-content;
+    padding: 10px 0
+}
+
+.jobs-main .job-filter .button-disabled {
+    opacity: .3;
+    pointer-events: none
+}
+
+.jobs-main .job-filter .clear-filter {
+    color: #6f3cdb;
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    margin: 12px auto 0;
+    text-align: center
+}
+
+.jobs-main>.button-purple {
+    display: block;
+    margin: 36px auto 0;
+    max-width: -webkit-max-content;
+    max-width: max-content
+}
+
+</style><meta name="generator" content="Gatsby 3.6.2" /><title data-react-helmet="true">Home | Cliphire: Personalized Employment Platform</title><link data-react-helmet="true" rel="preconnect" href="https://fonts.gstatic.com" /><link data-react-helmet="true" href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&amp;display=swap" rel="stylesheet" /><link data-react-helmet="true" href="https://fonts.googleapis.com/css2?family=Domine:wght@600;700&amp;display=swap" rel="stylesheet" /><link data-react-helmet="true" rel="stylesheet" type="text/css" charSet="UTF-8" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" /><meta data-react-helmet="true" name="description" content="Create a simple and personalized video resume that makes you stand out. Create a video resume with Cliphire to apply for job vacancies across top companies in the USA." /><meta data-react-helmet="true" property="og:title" content="Home" /><meta data-react-helmet="true" property="og:description" content="Create a simple and personalized video resume that makes you stand out. Create a video resume with Cliphire to apply for job vacancies across top companies in the USA." /><meta data-react-helmet="true" property="og:type" content="website" /><meta data-react-helmet="true" name="twitter:card" content="summary" /><meta data-react-helmet="true" name="twitter:creator" content="@brucira" /><meta data-react-helmet="true" name="twitter:title" content="Home" /><meta data-react-helmet="true" name="twitter:description" content="Create a simple and personalized video resume that makes you stand out. Create a video resume with Cliphire to apply for job vacancies across top companies in the USA." /><meta data-react-helmet="true" name="facebook-domain-verification" content="z603g40x23di2ilr932q4piynvhqnn" /><style>.gatsby-image-wrapper {
+    position: relative;
+    overflow: hidden
+}
+
+.gatsby-image-wrapper img {
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    margin: 0;
+    max-width: none;
+    padding: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    object-fit: cover
+}
+
+.gatsby-image-wrapper [data-main-image] {
+    opacity: 0;
+    transform: translateZ(0);
+    transition: opacity .25s linear;
+    will-change: opacity
+}
+
+.gatsby-image-wrapper-constrained {
+    display: inline-block;
+    vertical-align: top
+}
+
+</style><noscript><style>.gatsby-image-wrapper noscript [data-main-image] {
+    opacity: 1 !important
+}
+
+.gatsby-image-wrapper [data-placeholder-image] {
+    opacity: 0 !important
+}
+
+</style></noscript><script type="module">const e="undefined" !=typeof HTMLImageElement&&"loading" in HTMLImageElement.prototype;
+
+e&&document.body.addEventListener("load", (function(e) {
+            if(void 0===e.target.dataset.mainImage)return; if(void 0===e.target.dataset.gatsbyImageSsr)return; const t=e.target; let a=null, n=t; for(; null===a&&n; )void 0 !==n.parentNode.dataset.gatsbyImageWrapper&&(a=n.parentNode), n=n.parentNode; const o=a.querySelector("[data-placeholder-image]"), r=new Image; r.src=t.currentSrc, r.decode().catch((()=> {})).then((()=> {
+                        t.style.opacity=1, o&&(o.style.opacity=0, o.style.transition="opacity 500ms linear")
+                    }))
+        }), !0);
+</script><link rel="preconnect" href="https://www.googletagmanager.com" /><link rel="dns-prefetch" href="https://www.googletagmanager.com" /><link rel="icon" href="/favicon-32x32.png?v=6345ef6bf74b1aadd9a28267a038e8dc" type="image/png" /><link rel="manifest" href="/manifest.webmanifest" crossorigin="anonymous" /><meta name="theme-color" content="#663399" /><link rel="apple-touch-icon" sizes="48x48" href="/icons/icon-48x48.png?v=6345ef6bf74b1aadd9a28267a038e8dc" /><link rel="apple-touch-icon" sizes="72x72" href="/icons/icon-72x72.png?v=6345ef6bf74b1aadd9a28267a038e8dc" /><link rel="apple-touch-icon" sizes="96x96" href="/icons/icon-96x96.png?v=6345ef6bf74b1aadd9a28267a038e8dc" /><link rel="apple-touch-icon" sizes="144x144" href="/icons/icon-144x144.png?v=6345ef6bf74b1aadd9a28267a038e8dc" /><link rel="apple-touch-icon" sizes="192x192" href="/icons/icon-192x192.png?v=6345ef6bf74b1aadd9a28267a038e8dc" /><link rel="apple-touch-icon" sizes="256x256" href="/icons/icon-256x256.png?v=6345ef6bf74b1aadd9a28267a038e8dc" /><link rel="apple-touch-icon" sizes="384x384" href="/icons/icon-384x384.png?v=6345ef6bf74b1aadd9a28267a038e8dc" /><link rel="apple-touch-icon" sizes="512x512" href="/icons/icon-512x512.png?v=6345ef6bf74b1aadd9a28267a038e8dc" /><link as="script" rel="preload" href="/webpack-runtime-65ec302fcb59f07ee8f8.js" /><link as="script" rel="preload" href="/framework-89ddeb149991009fa125.js" /><link as="script" rel="preload" href="/app-e4edf5b90051108e297b.js" /><link as="script" rel="preload" href="/commons-d16cf031d791a395b1ee.js" /><link as="script" rel="preload" href="/43f020dcc85e16b3585106ecbf5bc0eb5b6316a8-4638f22ddb7b45b8abda.js" /><link as="script" rel="preload" href="/component---src-pages-index-jsx-2b5f593993845ec42e5c.js" /><link as="fetch" rel="preload" href="/page-data/index/page-data.json" crossorigin="anonymous" /><link as="fetch" rel="preload" href="/page-data/sq/d/63159454.json" crossorigin="anonymous" /><link as="fetch" rel="preload" href="/page-data/app-data.json" crossorigin="anonymous" /></head><body><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><div class="mainscroll"><nav class="header"><div class="headroom-wrapper"><div class="headroom headroom--unfixed"><div class="container  "><div class="nav-block flex-row col "><a aria-current="page" class="cliphire-logo" href="/"><img src="https://d33wubrfki0l68.cloudfront.net/97dec1c3dac6deb518dbc46fa70f82243170146d/bdb62/img/cliphire-logo.svg" alt="" /></a><div class="menu flex-row no-margin "><div class="left-nav flex-row align-items-center"><div><a title="How it works" href="/#how-it-works">How it works</a></div><div><a title="Features" href="/#cliphire-features">Features</a></div><div><a href="/jobs/">Jobs</a></div><div><a href="/blog/">Blog</a></div></div><div class="right-nav"><a href="https://app.cliphire.co/auth/jobseeker/login" class="log-in button "><span>Log In / Sign Up</span></a><a href="https://recruit.cliphire.co/" class="sign-up button " target="_blank">For Recruiters</a></div></div><button type="button" class="visible-mobile hamburger"><span></span></button></div></div></div></div></nav><main><div style="overflow:hidden"><section class="heroIndexMain" id="Main"><div class="container"><div class="flex-row align-items-center"><div class="image-container-main"><button class=" button button-video-resume"><img src="https://d33wubrfki0l68.cloudfront.net/6166fe504c4c29b9c10988bd094e468149ce96b6/98705/img/plus-circle.svg" alt="" /><a href="https://app.cliphire.co/auth/jobseeker/register">Create video resume</a></button><span class="hero-video-square"></span><div class="hero-video-area"><div><img src="https://d33wubrfki0l68.cloudfront.net/b04320ed61432d0f79dc70871b94f09de85dd749/fefe8/img/nova-thumb.jpg" alt="" /><video src="https://d33wubrfki0l68.cloudfront.net/b8d0da060aa2f3e9413d4c050523fef66dcd818c/29ec9/video/nova.mp4" autoplay="" muted="" loop="" playsinline=""></video><button type="button" role="button" tabindex="0" class="mute"><img src="https://d33wubrfki0l68.cloudfront.net/a417f77e9d48b6e17e49b4c4952f29cac14a7259/517bb/img/mute.svg" alt="" class="mute-button show" /><img src="https://d33wubrfki0l68.cloudfront.net/1af3b168c61080cfe7886227e28952b94078dc23/21a10/img/unmute.svg" alt="" class="mute-button " /></button></div><button class=" button button-video-resume get-hired-button"><img src="https://d33wubrfki0l68.cloudfront.net/6166fe504c4c29b9c10988bd094e468149ce96b6/98705/img/plus-circle.svg" alt="" /><a href="https://app.cliphire.co/auth/jobseeker/register">Get Hired</a></button></div></div><div class="main-heading col col-4 offset-custom-2"><h1>Be Seen,
+<span>Get Hired</span></h1><p>Cliphire enables jobseekers to easily create and share short video clips with prospective employers.</p><a href="https://app.cliphire.co/auth/jobseeker/register" class="button button-purple">Get Started for Free</a></div></div></div><svg class="hero-svg-storke" fill="none" viewBox="0 0 1569 502"><path id="svgPath" stroke="url(#paint0_linear)" stroke-linecap="round" stroke-linejoin="round" stroke-width="91" d="M46 49.393C199.741 4.707 241.889 416.145 424.668 416.145s260.25-258.062 474.225-243.602c213.977 14.459 590.717 206.776 623.977 206.776" opacity=".398"></path><defs><linearGradient id="paint0_linear" x1="913.545" x2="742.536" y1="149.715" y2="578.1" gradientUnits="userSpaceOnUse"><stop stop-color="#FFE8F6"></stop><stop offset="1" stop-color="#E6E5FF"></stop></linearGradient></defs></svg></section><section class="indexIntro position-relative" id="Intro"><span class="big-gradient-circle delay-1 gradient-anim"></span><span class="big-gradient-circle green-gradient gradient-anim" style="animation-direction:reverse"></span><div class="container"><div class="intro-block"><div class="intro-head flex-row align-items-center no-margin"><img src="https://d33wubrfki0l68.cloudfront.net/97dec1c3dac6deb518dbc46fa70f82243170146d/bdb62/img/cliphire-logo.svg" alt="" class="intro-logo" /><a href="https://app.cliphire.co/auth/jobseeker/register" class="button button-green">Share profile</a></div><div class="intro-image-main flex-row"><div class="image-container-intro col col-5"><img src="https://d33wubrfki0l68.cloudfront.net/cc789abc90a392244a712458463ea0cb4b296040/71176/img/cliphire-main.jpg" alt="" /></div><div class="intro-contents-wrapper col col-5 offset-1"><div class="circle"></div><div class="intro-contents"><div class="accordian-1 introduction"><h5>Introduction</h5><span></span><span></span><span></span></div><div class="accordian-1 education"><h5>Education</h5></div><div class="accordian-1 skill-sets"><h5>Skill Sets</h5></div><div class="accordian-1 job-experience"><h5>Job Experience</h5></div><div class="accordian-1 expected-salary"><h5>Expected Salary</h5></div></div></div></div></div></div></section><section class="indexHow" id="how-it-works"><div class="container"><h5 class="text-center yellow-heading">How it works</h5><h3 class="text-center">Getting hired has never been easier</h3><div class="how-tabs flex-row no-margin"><div class="tab-1 "><div class="tab-image-wrapper"><img src="https://d33wubrfki0l68.cloudfront.net/eb35fcb5e967c8296c9e2fbd8d78916ef011439c/20469/img/create-video.svg" alt="" /></div><div class="tab-content"><h5>Create Video</h5><p>Record your introduction video to showcase what you bring to the table.</p></div></div><div class="tab-1 "><div class="tab-image-wrapper"><img src="https://d33wubrfki0l68.cloudfront.net/9929d3990ed791eeacdef596de230f374f081c2d/f8b2d/img/share-link.svg" alt="" /></div><div class="tab-content"><h5>Share Profile</h5><p>Upload your resume &amp;
+share your profile with recruiters when applying to jobs.</p></div></div><div class="tab-1 "><div class="tab-image-wrapper"><img src="https://d33wubrfki0l68.cloudfront.net/2a02e03b885e90691907a5ac37e6325a9fa9da92/d5a9c/img/get-hired.svg" alt="" /></div><div class="tab-content"><h5>Get Hired</h5><p>Get hired faster by standing out to recruiters and hiring managers.</p></div></div></div></div></section><section class="videoSlider"><div class="small-container"><div class="why-index-content flex-row no-margin"><div class="col col-5"><h5 class="yellow-heading ">Why Videos?</h5><h3>You’re more than your job history</h3></div><div class="col col-6 offset-1"><p><span class="small-stroke">Why a video introduction? </span>< !-- -->Because your job history doesn’t tell your whole story. ClipHire showcases who you are beyond your resume.</p><p>Build your career and get hired faster with a shareable link to everything employers want to see.They’ll be able to review your resume,
+check your references,
+message you,
+and set up an interview on your calendar - all in one place. (Hiring managers love a candidate who makes their job easier.)</p><a href="https://app.cliphire.co/auth/jobseeker/register" class="purple" style="margin-top:20px;display:inline-block">Create a video resume<img src="https://d33wubrfki0l68.cloudfront.net/d040b77922e9b7bcec0a5ca9a10e29e25f97cebe/999bb/img/arrow-right.svg" alt="" class="arrow-right" /></a></div></div></div><div class="position-relative  video-slider-main"><span class="big-gradient-circle red-gradient"></span><span class="big-gradient-circle"></span><div class="slick-slider center slick-initialized" dir="ltr"><button type="button" data-role="none" class="slick-arrow slick-prev" style="display:block">< !-- -->Previous</button><div class="slick-list" style="padding:0px 200px"><div class="slick-track" style="width:360%;left:-79.99999999999999%"><div data-index="-6" tabindex="-1" class="slick-slide slick-center slick-cloned" aria-hidden="true" style="width:5.555555555555555%"><div><div tabindex="-1" style="width:100%;display:inline-block"><div class="case-card"><div class="case-video"><img src="https://d33wubrfki0l68.cloudfront.net/453cfd7ffe222c767b34996e178dad07f81bba9b/f10c1/img/video-1.jpg" alt="" /><video data-id="0" src="https://d33wubrfki0l68.cloudfront.net/5a63863935ad5b242f54a006ccf19d61bf620353/0ca9a/video/video-1.mp4" muted=""></video><button type="button" class="mute"><img src="https://d33wubrfki0l68.cloudfront.net/a417f77e9d48b6e17e49b4c4952f29cac14a7259/517bb/img/mute.svg" alt="" class="mute-button show" /><img src="https://d33wubrfki0l68.cloudfront.net/1af3b168c61080cfe7886227e28952b94078dc23/21a10/img/unmute.svg" alt="" class="mute-button " /></button></div><div class="case-content"><p>It was really surprising to me how many interview requests I received from companies after sharing my ClipHire profile with recruiters.</p><div class="case-footer flex-row no-margin"><p>- Josh Donovan</p><a aria-current="page" class="read-case" href="/">Read Case</a></div></div></div></div></div></div><div data-index="-5" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width:5.555555555555555%"><div><div tabindex="-1" style="width:100%;display:inline-block"><div class="case-card"><div class="case-video"><img src="https://d33wubrfki0l68.cloudfront.net/dce339617d6573fc905bdb2fb17dc8d6ee7d4365/cd1b2/img/video-2.jpg" alt="" /><video data-id="1" src="https://d33wubrfki0l68.cloudfront.net/a116e703694e9b0a4ea6ac081d8cb9a3bfda4fde/f19aa/video/video-2.mp4" muted=""></video><button type="button" class="mute"><img src="https://d33wubrfki0l68.cloudfront.net/a417f77e9d48b6e17e49b4c4952f29cac14a7259/517bb/img/mute.svg" alt="" class="mute-button show" /><img src="https://d33wubrfki0l68.cloudfront.net/1af3b168c61080cfe7886227e28952b94078dc23/21a10/img/unmute.svg" alt="" class="mute-button " /></button></div><div class="case-content"><p>I love how ClipHire makes me feel in control of my job search. The video feature of ClipHire gave me a lot of confidence looking for a new job.</p><div class="case-footer flex-row no-margin"><p>- Lauren Winfrey</p><a aria-current="page" class="read-case" href="/">Read Case</a></div></div></div></div></div></div><div data-index="-4" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width:5.555555555555555%"><div><div tabindex="-1" style="width:100%;display:inline-block"><div class="case-card "><div class="case-video"><img src="https://d33wubrfki0l68.cloudfront.net/519c416b49ff3d5d7e83f71b07d1f73a2235f7ee/e7345/img/video-3.jpg" alt="" /><video data-id="2" src="https://d33wubrfki0l68.cloudfront.net/b2df03a1139d6c3b2dacc5b9ddc822fb910a70bb/5ab0a/video/video-3.mp4" muted=""></video><button type="button" class="mute"><img src="https://d33wubrfki0l68.cloudfront.net/a417f77e9d48b6e17e49b4c4952f29cac14a7259/517bb/img/mute.svg" alt="" class="mute-button show" /><img src="https://d33wubrfki0l68.cloudfront.net/1af3b168c61080cfe7886227e28952b94078dc23/21a10/img/unmute.svg" alt="" class="mute-button " /></button></div><div class="case-content"><p>I work in an industry that is saturated with talent. I loved using ClipHire to land interviews because it helped me stand out from other applicants for the roles that I applied for</p><div class="case-footer flex-row no-margin"><p>- Anthony Gersczeck</p><a aria-current="page" class="read-case" href="/">Read Case</a></div></div></div></div></div></div><div data-index="-3" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width:5.555555555555555%"><div><div tabindex="-1" style="width:100%;display:inline-block"><div class="case-card "><div class="case-video"><img src="https://d33wubrfki0l68.cloudfront.net/9c7833170aa81493d9260b68136ea0d388e54518/0e127/img/video-4.jpg" alt="" /><video data-id="3" src="https://d33wubrfki0l68.cloudfront.net/d32b0ca05d3db7295ad30154a06cd7edf8b71e34/d4cec/video/video-4.mp4" muted=""></video><button type="button" class="mute"><img src="https://d33wubrfki0l68.cloudfront.net/a417f77e9d48b6e17e49b4c4952f29cac14a7259/517bb/img/mute.svg" alt="" class="mute-button show" /><img src="https://d33wubrfki0l68.cloudfront.net/1af3b168c61080cfe7886227e28952b94078dc23/21a10/img/unmute.svg" alt="" class="mute-button " /></button></div><div class="case-content"><p>ClipHire helped me get my foot in the door because I was able to tell what I brought to the table that my resume didn’t tell when changing careers.</p><div class="case-footer flex-row no-margin"><p>- Katrina Bivens</p><a aria-current="page" class="read-case" href="/">Read Case</a></div></div></div></div></div></div><div data-index="-2" tabindex="-1" class="slick-slide slick-active slick-cloned" aria-hidden="false" style="width:5.555555555555555%"><div><div tabindex="-1" style="width:100%;display:inline-block"><div class="case-card "><div class="case-video"><img src="https://d33wubrfki0l68.cloudfront.net/9603ca9440ebe6f68c1a09356a4fb49bd9af9caa/bc2df/img/video-5.jpg" alt="" /><video data-id="4" src="https://d33wubrfki0l68.cloudfront.net/736e5f60112e83c3039bd0de424d10414afa1e31/746ff/video/video-5.mp4" muted=""></video><button type="button" class="mute"><img src="https://d33wubrfki0l68.cloudfront.net/a417f77e9d48b6e17e49b4c4952f29cac14a7259/517bb/img/mute.svg" alt="" class="mute-button show" /><img src="https://d33wubrfki0l68.cloudfront.net/1af3b168c61080cfe7886227e28952b94078dc23/21a10/img/unmute.svg" alt="" class="mute-button " /></button></div><div class="case-content"><p>As an engineer,
+most applicants are judged strictly based on their experience on paper. Cliphire helped me add that extra touch to get interviews over other applicants.</p><div class="case-footer flex-row no-margin"><p>- Sarah Hall</p><a aria-current="page" class="read-case" href="/">Read Case</a></div></div></div></div></div></div><div data-index="-1" tabindex="-1" class="slick-slide slick-active slick-cloned" aria-hidden="false" style="width:5.555555555555555%"><div><div tabindex="-1" style="width:100%;display:inline-block"><div class="case-card "><div class="case-video"><img src="https://d33wubrfki0l68.cloudfront.net/7f880bd04bd91b57877009cc9db22847fb22aac2/cff64/img/video-6.jpg" alt="" /><video data-id="5" src="https://d33wubrfki0l68.cloudfront.net/321a2fdb72a8eb9c1a0ec4e03261a92649163d90/91b20/video/video-6.mp4" muted=""></video><button type="button" class="mute"><img src="https://d33wubrfki0l68.cloudfront.net/a417f77e9d48b6e17e49b4c4952f29cac14a7259/517bb/img/mute.svg" alt="" class="mute-button show" /><img src="https://d33wubrfki0l68.cloudfront.net/1af3b168c61080cfe7886227e28952b94078dc23/21a10/img/unmute.svg" alt="" class="mute-button " /></button></div><div class="case-content"><p>I was looking for a job in a different industry than my experience. ClipHire really helped me put my reasoning into works that my resume didn’t tell.</p><div class="case-footer flex-row no-margin"><p>- Daniel Maw</p><a aria-current="page" class="read-case" href="/">Read Case</a></div></div></div></div></div></div><div data-index="0" class="slick-slide slick-active slick-center slick-current" tabindex="-1" aria-hidden="false" style="outline:none;width:5.555555555555555%"><div><div tabindex="-1" style="width:100%;display:inline-block"><div class="case-card"><div class="case-video"><img src="https://d33wubrfki0l68.cloudfront.net/453cfd7ffe222c767b34996e178dad07f81bba9b/f10c1/img/video-1.jpg" alt="" /><video data-id="0" src="https://d33wubrfki0l68.cloudfront.net/5a63863935ad5b242f54a006ccf19d61bf620353/0ca9a/video/video-1.mp4" muted=""></video><button type="button" class="mute"><img src="https://d33wubrfki0l68.cloudfront.net/a417f77e9d48b6e17e49b4c4952f29cac14a7259/517bb/img/mute.svg" alt="" class="mute-button show" /><img src="https://d33wubrfki0l68.cloudfront.net/1af3b168c61080cfe7886227e28952b94078dc23/21a10/img/unmute.svg" alt="" class="mute-button " /></button></div><div class="case-content"><p>It was really surprising to me how many interview requests I received from companies after sharing my ClipHire profile with recruiters.</p><div class="case-footer flex-row no-margin"><p>- Josh Donovan</p><a aria-current="page" class="read-case" href="/">Read Case</a></div></div></div></div></div></div><div data-index="1" class="slick-slide slick-active" tabindex="-1" aria-hidden="false" style="outline:none;width:5.555555555555555%"><div><div tabindex="-1" style="width:100%;display:inline-block"><div class="case-card"><div class="case-video"><img src="https://d33wubrfki0l68.cloudfront.net/dce339617d6573fc905bdb2fb17dc8d6ee7d4365/cd1b2/img/video-2.jpg" alt="" /><video data-id="1" src="https://d33wubrfki0l68.cloudfront.net/a116e703694e9b0a4ea6ac081d8cb9a3bfda4fde/f19aa/video/video-2.mp4" muted=""></video><button type="button" class="mute"><img src="https://d33wubrfki0l68.cloudfront.net/a417f77e9d48b6e17e49b4c4952f29cac14a7259/517bb/img/mute.svg" alt="" class="mute-button show" /><img src="https://d33wubrfki0l68.cloudfront.net/1af3b168c61080cfe7886227e28952b94078dc23/21a10/img/unmute.svg" alt="" class="mute-button " /></button></div><div class="case-content"><p>I love how ClipHire makes me feel in control of my job search. The video feature of ClipHire gave me a lot of confidence looking for a new job.</p><div class="case-footer flex-row no-margin"><p>- Lauren Winfrey</p><a aria-current="page" class="read-case" href="/">Read Case</a></div></div></div></div></div></div><div data-index="2" class="slick-slide slick-active" tabindex="-1" aria-hidden="false" style="outline:none;width:5.555555555555555%"><div><div tabindex="-1" style="width:100%;display:inline-block"><div class="case-card "><div class="case-video"><img src="https://d33wubrfki0l68.cloudfront.net/519c416b49ff3d5d7e83f71b07d1f73a2235f7ee/e7345/img/video-3.jpg" alt="" /><video data-id="2" src="https://d33wubrfki0l68.cloudfront.net/b2df03a1139d6c3b2dacc5b9ddc822fb910a70bb/5ab0a/video/video-3.mp4" muted=""></video><button type="button" class="mute"><img src="https://d33wubrfki0l68.cloudfront.net/a417f77e9d48b6e17e49b4c4952f29cac14a7259/517bb/img/mute.svg" alt="" class="mute-button show" /><img src="https://d33wubrfki0l68.cloudfront.net/1af3b168c61080cfe7886227e28952b94078dc23/21a10/img/unmute.svg" alt="" class="mute-button " /></button></div><div class="case-content"><p>I work in an industry that is saturated with talent. I loved using ClipHire to land interviews because it helped me stand out from other applicants for the roles that I applied for</p><div class="case-footer flex-row no-margin"><p>- Anthony Gersczeck</p><a aria-current="page" class="read-case" href="/">Read Case</a></div></div></div></div></div></div><div data-index="3" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline:none;width:5.555555555555555%"><div><div tabindex="-1" style="width:100%;display:inline-block"><div class="case-card "><div class="case-video"><img src="https://d33wubrfki0l68.cloudfront.net/9c7833170aa81493d9260b68136ea0d388e54518/0e127/img/video-4.jpg" alt="" /><video data-id="3" src="https://d33wubrfki0l68.cloudfront.net/d32b0ca05d3db7295ad30154a06cd7edf8b71e34/d4cec/video/video-4.mp4" muted=""></video><button type="button" class="mute"><img src="https://d33wubrfki0l68.cloudfront.net/a417f77e9d48b6e17e49b4c4952f29cac14a7259/517bb/img/mute.svg" alt="" class="mute-button show" /><img src="https://d33wubrfki0l68.cloudfront.net/1af3b168c61080cfe7886227e28952b94078dc23/21a10/img/unmute.svg" alt="" class="mute-button " /></button></div><div class="case-content"><p>ClipHire helped me get my foot in the door because I was able to tell what I brought to the table that my resume didn’t tell when changing careers.</p><div class="case-footer flex-row no-margin"><p>- Katrina Bivens</p><a aria-current="page" class="read-case" href="/">Read Case</a></div></div></div></div></div></div><div data-index="4" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline:none;width:5.555555555555555%"><div><div tabindex="-1" style="width:100%;display:inline-block"><div class="case-card "><div class="case-video"><img src="https://d33wubrfki0l68.cloudfront.net/9603ca9440ebe6f68c1a09356a4fb49bd9af9caa/bc2df/img/video-5.jpg" alt="" /><video data-id="4" src="https://d33wubrfki0l68.cloudfront.net/736e5f60112e83c3039bd0de424d10414afa1e31/746ff/video/video-5.mp4" muted=""></video><button type="button" class="mute"><img src="https://d33wubrfki0l68.cloudfront.net/a417f77e9d48b6e17e49b4c4952f29cac14a7259/517bb/img/mute.svg" alt="" class="mute-button show" /><img src="https://d33wubrfki0l68.cloudfront.net/1af3b168c61080cfe7886227e28952b94078dc23/21a10/img/unmute.svg" alt="" class="mute-button " /></button></div><div class="case-content"><p>As an engineer,
+most applicants are judged strictly based on their experience on paper. Cliphire helped me add that extra touch to get interviews over other applicants.</p><div class="case-footer flex-row no-margin"><p>- Sarah Hall</p><a aria-current="page" class="read-case" href="/">Read Case</a></div></div></div></div></div></div><div data-index="5" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline:none;width:5.555555555555555%"><div><div tabindex="-1" style="width:100%;display:inline-block"><div class="case-card "><div class="case-video"><img src="https://d33wubrfki0l68.cloudfront.net/7f880bd04bd91b57877009cc9db22847fb22aac2/cff64/img/video-6.jpg" alt="" /><video data-id="5" src="https://d33wubrfki0l68.cloudfront.net/321a2fdb72a8eb9c1a0ec4e03261a92649163d90/91b20/video/video-6.mp4" muted=""></video><button type="button" class="mute"><img src="https://d33wubrfki0l68.cloudfront.net/a417f77e9d48b6e17e49b4c4952f29cac14a7259/517bb/img/mute.svg" alt="" class="mute-button show" /><img src="https://d33wubrfki0l68.cloudfront.net/1af3b168c61080cfe7886227e28952b94078dc23/21a10/img/unmute.svg" alt="" class="mute-button " /></button></div><div class="case-content"><p>I was looking for a job in a different industry than my experience. ClipHire really helped me put my reasoning into works that my resume didn’t tell.</p><div class="case-footer flex-row no-margin"><p>- Daniel Maw</p><a aria-current="page" class="read-case" href="/">Read Case</a></div></div></div></div></div></div><div data-index="6" tabindex="-1" class="slick-slide slick-center slick-cloned" aria-hidden="true" style="width:5.555555555555555%"><div><div tabindex="-1" style="width:100%;display:inline-block"><div class="case-card"><div class="case-video"><img src="https://d33wubrfki0l68.cloudfront.net/453cfd7ffe222c767b34996e178dad07f81bba9b/f10c1/img/video-1.jpg" alt="" /><video data-id="0" src="https://d33wubrfki0l68.cloudfront.net/5a63863935ad5b242f54a006ccf19d61bf620353/0ca9a/video/video-1.mp4" muted=""></video><button type="button" class="mute"><img src="https://d33wubrfki0l68.cloudfront.net/a417f77e9d48b6e17e49b4c4952f29cac14a7259/517bb/img/mute.svg" alt="" class="mute-button show" /><img src="https://d33wubrfki0l68.cloudfront.net/1af3b168c61080cfe7886227e28952b94078dc23/21a10/img/unmute.svg" alt="" class="mute-button " /></button></div><div class="case-content"><p>It was really surprising to me how many interview requests I received from companies after sharing my ClipHire profile with recruiters.</p><div class="case-footer flex-row no-margin"><p>- Josh Donovan</p><a aria-current="page" class="read-case" href="/">Read Case</a></div></div></div></div></div></div><div data-index="7" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width:5.555555555555555%"><div><div tabindex="-1" style="width:100%;display:inline-block"><div class="case-card"><div class="case-video"><img src="https://d33wubrfki0l68.cloudfront.net/dce339617d6573fc905bdb2fb17dc8d6ee7d4365/cd1b2/img/video-2.jpg" alt="" /><video data-id="1" src="https://d33wubrfki0l68.cloudfront.net/a116e703694e9b0a4ea6ac081d8cb9a3bfda4fde/f19aa/video/video-2.mp4" muted=""></video><button type="button" class="mute"><img src="https://d33wubrfki0l68.cloudfront.net/a417f77e9d48b6e17e49b4c4952f29cac14a7259/517bb/img/mute.svg" alt="" class="mute-button show" /><img src="https://d33wubrfki0l68.cloudfront.net/1af3b168c61080cfe7886227e28952b94078dc23/21a10/img/unmute.svg" alt="" class="mute-button " /></button></div><div class="case-content"><p>I love how ClipHire makes me feel in control of my job search. The video feature of ClipHire gave me a lot of confidence looking for a new job.</p><div class="case-footer flex-row no-margin"><p>- Lauren Winfrey</p><a aria-current="page" class="read-case" href="/">Read Case</a></div></div></div></div></div></div><div data-index="8" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width:5.555555555555555%"><div><div tabindex="-1" style="width:100%;display:inline-block"><div class="case-card "><div class="case-video"><img src="https://d33wubrfki0l68.cloudfront.net/519c416b49ff3d5d7e83f71b07d1f73a2235f7ee/e7345/img/video-3.jpg" alt="" /><video data-id="2" src="https://d33wubrfki0l68.cloudfront.net/b2df03a1139d6c3b2dacc5b9ddc822fb910a70bb/5ab0a/video/video-3.mp4" muted=""></video><button type="button" class="mute"><img src="https://d33wubrfki0l68.cloudfront.net/a417f77e9d48b6e17e49b4c4952f29cac14a7259/517bb/img/mute.svg" alt="" class="mute-button show" /><img src="https://d33wubrfki0l68.cloudfront.net/1af3b168c61080cfe7886227e28952b94078dc23/21a10/img/unmute.svg" alt="" class="mute-button " /></button></div><div class="case-content"><p>I work in an industry that is saturated with talent. I loved using ClipHire to land interviews because it helped me stand out from other applicants for the roles that I applied for</p><div class="case-footer flex-row no-margin"><p>- Anthony Gersczeck</p><a aria-current="page" class="read-case" href="/">Read Case</a></div></div></div></div></div></div><div data-index="9" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width:5.555555555555555%"><div><div tabindex="-1" style="width:100%;display:inline-block"><div class="case-card "><div class="case-video"><img src="https://d33wubrfki0l68.cloudfront.net/9c7833170aa81493d9260b68136ea0d388e54518/0e127/img/video-4.jpg" alt="" /><video data-id="3" src="https://d33wubrfki0l68.cloudfront.net/d32b0ca05d3db7295ad30154a06cd7edf8b71e34/d4cec/video/video-4.mp4" muted=""></video><button type="button" class="mute"><img src="https://d33wubrfki0l68.cloudfront.net/a417f77e9d48b6e17e49b4c4952f29cac14a7259/517bb/img/mute.svg" alt="" class="mute-button show" /><img src="https://d33wubrfki0l68.cloudfront.net/1af3b168c61080cfe7886227e28952b94078dc23/21a10/img/unmute.svg" alt="" class="mute-button " /></button></div><div class="case-content"><p>ClipHire helped me get my foot in the door because I was able to tell what I brought to the table that my resume didn’t tell when changing careers.</p><div class="case-footer flex-row no-margin"><p>- Katrina Bivens</p><a aria-current="page" class="read-case" href="/">Read Case</a></div></div></div></div></div></div><div data-index="10" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width:5.555555555555555%"><div><div tabindex="-1" style="width:100%;display:inline-block"><div class="case-card "><div class="case-video"><img src="https://d33wubrfki0l68.cloudfront.net/9603ca9440ebe6f68c1a09356a4fb49bd9af9caa/bc2df/img/video-5.jpg" alt="" /><video data-id="4" src="https://d33wubrfki0l68.cloudfront.net/736e5f60112e83c3039bd0de424d10414afa1e31/746ff/video/video-5.mp4" muted=""></video><button type="button" class="mute"><img src="https://d33wubrfki0l68.cloudfront.net/a417f77e9d48b6e17e49b4c4952f29cac14a7259/517bb/img/mute.svg" alt="" class="mute-button show" /><img src="https://d33wubrfki0l68.cloudfront.net/1af3b168c61080cfe7886227e28952b94078dc23/21a10/img/unmute.svg" alt="" class="mute-button " /></button></div><div class="case-content"><p>As an engineer,
+most applicants are judged strictly based on their experience on paper. Cliphire helped me add that extra touch to get interviews over other applicants.</p><div class="case-footer flex-row no-margin"><p>- Sarah Hall</p><a aria-current="page" class="read-case" href="/">Read Case</a></div></div></div></div></div></div><div data-index="11" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width:5.555555555555555%"><div><div tabindex="-1" style="width:100%;display:inline-block"><div class="case-card "><div class="case-video"><img src="https://d33wubrfki0l68.cloudfront.net/7f880bd04bd91b57877009cc9db22847fb22aac2/cff64/img/video-6.jpg" alt="" /><video data-id="5" src="https://d33wubrfki0l68.cloudfront.net/321a2fdb72a8eb9c1a0ec4e03261a92649163d90/91b20/video/video-6.mp4" muted=""></video><button type="button" class="mute"><img src="https://d33wubrfki0l68.cloudfront.net/a417f77e9d48b6e17e49b4c4952f29cac14a7259/517bb/img/mute.svg" alt="" class="mute-button show" /><img src="https://d33wubrfki0l68.cloudfront.net/1af3b168c61080cfe7886227e28952b94078dc23/21a10/img/unmute.svg" alt="" class="mute-button " /></button></div><div class="case-content"><p>I was looking for a job in a different industry than my experience. ClipHire really helped me put my reasoning into works that my resume didn’t tell.</p><div class="case-footer flex-row no-margin"><p>- Daniel Maw</p><a aria-current="page" class="read-case" href="/">Read Case</a></div></div></div></div></div></div></div></div><button type="button" data-role="none" class="slick-arrow slick-next" style="display:block">< !-- -->Next</button></div></div></section><section class="feature" id="cliphire-features"><div class="small-container"><div class="flex-row no-margin"><div class="feature-col"><h5 class="yellow-heading ">More Features</h5><h3>The fastest,
+easiest path to “you’re hired”</h3><div class="accordian-block"><div class="accordion flex-row no-margin is-active"><button type="button" class="button-unstyled accordion-head"><div class="flex-row no-margin align-items-center"><img src="https://d33wubrfki0l68.cloudfront.net/662cc27f45d74f169a00cb53a2625a318a7b37aa/c10a2/img/video-accordion.svg" alt="" /><h5>Video Introduction</h5></div><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style="transform:translateY(-50%) rotate(180deg)"><path d="M7.41 8.58997L12 13.17L16.59 8.58997L18 9.99997L12 16L6 9.99997L7.41 8.58997Z" fill="#131313"></path></svg></button><div class="accordion-body"><p>Show employers who you really are with a personalized 30-second video - we’ll coach you on how best to showcase YOU.</p><div class="accordion-img-bg visible-tablet"><span class="big-gradient-circle gradient-anim red-gradient small-gradient"></span><span class="big-gradient-circle delay-1 gradient-anim"></span><span class="big-gradient-circle delay-2 gradient-anim green-gradient"></span><img src="https://d33wubrfki0l68.cloudfront.net/415ee4c5f7dadab3b16be74cae2ae7be2ae14aa3/3e7e4/img/accordion-video.png" alt="" /></div></div></div><div class="accordion flex-row no-margin"><button type="button" class="button-unstyled accordion-head"><div class="flex-row no-margin align-items-center"><img src="https://d33wubrfki0l68.cloudfront.net/6537e8d0eb20f3155093947e18353d4526232b52/64976/img/resume-accordion.svg" alt="" /><h5>Resume Snapshot</h5></div><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style="transform:translateY(-50%) rotate(0deg)"><path d="M7.41 8.58997L12 13.17L16.59 8.58997L18 9.99997L12 16L6 9.99997L7.41 8.58997Z" fill="#131313"></path></svg></button><div class="accordion-body"><p>Quickly share your resume on or off the platform with a personalized link.</p><div class="accordion-img-bg visible-tablet"><span class="big-gradient-circle gradient-anim red-gradient small-gradient"></span><span class="big-gradient-circle delay-1 gradient-anim"></span><span class="big-gradient-circle delay-2 gradient-anim green-gradient"></span><img src="https://d33wubrfki0l68.cloudfront.net/3c1ac3c4266717b6a59e632b06a9b25448b584b9/9cd71/img/accordion-resume.png" alt="" /></div></div></div><div class="accordion flex-row no-margin"><button type="button" class="button-unstyled accordion-head"><div class="flex-row no-margin align-items-center"><img src="https://d33wubrfki0l68.cloudfront.net/a4ddf8b5498e97e2acf29f217e8166c20082ae5b/7d29f/img/analytics-accordion.svg" alt="" /><h5>Analytics</h5></div><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style="transform:translateY(-50%) rotate(0deg)"><path d="M7.41 8.58997L12 13.17L16.59 8.58997L18 9.99997L12 16L6 9.99997L7.41 8.58997Z" fill="#131313"></path></svg></button><div class="accordion-body"><p>Visualise your profile activity with our very own analytics tool and optimize accordingly.</p><div class="accordion-img-bg visible-tablet"><span class="big-gradient-circle gradient-anim red-gradient small-gradient"></span><span class="big-gradient-circle delay-1 gradient-anim"></span><span class="big-gradient-circle delay-2 gradient-anim green-gradient"></span><img src="https://d33wubrfki0l68.cloudfront.net/e8b97814732e8fd27273561e4549a9867a908ed9/a6e67/img/accordion-analytics.png" alt="" /></div></div></div><div class="accordion flex-row no-margin"><button type="button" class="button-unstyled accordion-head"><div class="flex-row no-margin align-items-center"><img src="https://d33wubrfki0l68.cloudfront.net/2d0b8464d06307fe03ee2566378df603c0074ac0/cf81d/img/verified-accordion.svg" alt="" /><h5>Verified References</h5></div><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style="transform:translateY(-50%) rotate(0deg)"><path d="M7.41 8.58997L12 13.17L16.59 8.58997L18 9.99997L12 16L6 9.99997L7.41 8.58997Z" fill="#131313"></path></svg></button><div class="accordion-body"><p>Display your references - hiring managers can verify them with a single click.</p><div class="accordion-img-bg visible-tablet"><span class="big-gradient-circle gradient-anim red-gradient small-gradient"></span><span class="big-gradient-circle delay-1 gradient-anim"></span><span class="big-gradient-circle delay-2 gradient-anim green-gradient"></span><img src="https://d33wubrfki0l68.cloudfront.net/bbed6e0bac9aef93c592398f2fc4e5850f657452/6e52a/img/accordion-verified.png" alt="" /></div></div></div><div class="accordion flex-row no-margin"><button type="button" class="button-unstyled accordion-head"><div class="flex-row no-margin align-items-center"><img src="https://d33wubrfki0l68.cloudfront.net/b4ac0490d7840920db2e815a28df1cef24bda144/6d5f3/img/calendar-accordion.svg" alt="" /><h5>Calendar Integration</h5></div><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style="transform:translateY(-50%) rotate(0deg)"><path d="M7.41 8.58997L12 13.17L16.59 8.58997L18 9.99997L12 16L6 9.99997L7.41 8.58997Z" fill="#131313"></path></svg></button><div class="accordion-body"><p>Link your personal calendar so employers can easily schedule an interview.</p><div class="accordion-img-bg visible-tablet"><span class="big-gradient-circle gradient-anim red-gradient small-gradient"></span><span class="big-gradient-circle delay-1 gradient-anim"></span><span class="big-gradient-circle delay-2 gradient-anim green-gradient"></span><img src="https://d33wubrfki0l68.cloudfront.net/513fb1560603d80866e9b1b176e83b7a67fa8052/90df8/img/accordion-calendar.png" alt="" /></div></div></div><div class="accordion flex-row no-margin"><button type="button" class="button-unstyled accordion-head"><div class="flex-row no-margin align-items-center"><img src="https://d33wubrfki0l68.cloudfront.net/beea9388262fe28b41456f2b9a62587c01bfd7b4/88b50/img/in-app-accordion.svg" alt="" /><h5>In-App Messaging</h5></div><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style="transform:translateY(-50%) rotate(0deg)"><path d="M7.41 8.58997L12 13.17L16.59 8.58997L18 9.99997L12 16L6 9.99997L7.41 8.58997Z" fill="#131313"></path></svg></button><div class="accordion-body"><p>Communicate with interested employers directly inside the ClipHire app.</p><div class="accordion-img-bg visible-tablet"><span class="big-gradient-circle gradient-anim red-gradient small-gradient"></span><span class="big-gradient-circle delay-1 gradient-anim"></span><span class="big-gradient-circle delay-2 gradient-anim green-gradient"></span><img src="https://d33wubrfki0l68.cloudfront.net/3c6b55b5f3eeeaa2ee1964851f2602a05a9ee591/8f2f3/img/accordion-in-app.png" alt="" /></div></div></div></div></div><div class="feature-col-2 hidden-tablet"><div class="accordion-img-bg position-relative"><span class="big-gradient-circle gradient-anim red-gradient small-gradient"></span><span class="big-gradient-circle delay-1 gradient-anim"></span><span class="big-gradient-circle delay-2 gradient-anim green-gradient"></span><div class="accordion-image-area hidden-mobile"><div class="accordion-image1 accordion-image accordion-image-active"></div><div class="accordion-image2 accordion-image "></div><div class="accordion-image3 accordion-image "></div><div class="accordion-image4 accordion-image "></div><div class="accordion-image5 accordion-image "></div><div class="accordion-image6 accordion-image "></div></div></div></div></div></div></section><section class="table"><div class="container"><h5 class="text-center yellow-heading">Competitive Landscape</h5><h3 class="text-center">Now You Can Show And Tell</h3><p class="pre-table-text text-center">With LinkedIn and Indeed,
+you’re only a resume. ClipHire’s video platform empowers you to showcase all of you.</p></div><div class="container right-no-padding-mob"><div class=" table-wrapper position-relative "><span class="big-gradient-circle"></span><span class="big-gradient-circle small-gradient green-gradient"></span><span class="big-gradient-circle red-gradient"></span><div class="feature-table flex-row "><div class="feature-list"><div class="feature-head"><h4>Features</h4></div><div class="feature-block"><h5>Digital Resume</h5></div><div class="feature-block"><h5>Video Introduction</h5></div><div class="feature-block"><h5>Verified References</h5></div><div class="feature-block"><h5>Calendar Integration</h5></div><div class="feature-block"><h5>Candidacy Toggle</h5></div><div class="feature-block"><h5>In-App Messaging</h5></div><div class="feature-block"><h5>Verified References</h5></div><div class="feature-block"><h5>Resume Snapshot Link</h5></div><div class="feature-block"><h5>Job Searching</h5></div><div class="feature-block"><h5>Dynamic Job Search</h5></div><div class="feature-block"><h5>Filter Job Results</h5></div><div class="feature-block"><h5>One-Click Apply</h5></div><div class="feature-block"><h5>Save Interesting Jobs</h5></div><div class="feature-block"><h5>Automatic Email Alerts</h5></div></div><div class="feature-body flex-row"><div class="single-feature"><div class="feature-head"><img src="https://d33wubrfki0l68.cloudfront.net/97dec1c3dac6deb518dbc46fa70f82243170146d/bdb62/img/cliphire-logo.svg" alt="" class="cliphire-logo-table" /></div><div class="feature-block"><span class="check"></span></div><div class="feature-block"><span class="check"></span></div><div class="feature-block"><span class="check"></span></div><div class="feature-block"><span class="check"></span></div><div class="feature-block"><span class="check"></span></div><div class="feature-block"><span class="check"></span></div><div class="feature-block"><span class="check"></span></div><div class="feature-block"><span class="check"></span></div><div class="feature-block"><span class="check"></span></div><div class="feature-block"><span class="check"></span></div><div class="feature-block"><span class="check"></span></div><div class="feature-block"><span class="check"></span></div><div class="feature-block"><span class="check"></span></div><div class="feature-block"><span class="check"></span></div></div><div class="single-feature"><div class="feature-head"><img src="https://d33wubrfki0l68.cloudfront.net/c330cf710f90ce9a1689329b70f06a670d5a4d13/9cea5/img/linkedin-logo.svg" alt="" class="linkedin-logo-table" /></div><div class="feature-block"><span class="check"></span></div><div class="feature-block"><span class="check cross"></span></div><div class="feature-block"><span class="check cross"></span></div><div class="feature-block"><span class="check cross"></span></div><div class="feature-block"><span class="check"></span></div><div class="feature-block"><span class="check"></span></div><div class="feature-block"><span class="check"></span></div><div class="feature-block"><span class="check cross"></span></div><div class="feature-block"><span class="check"></span></div><div class="feature-block"><span class="check"></span></div><div class="feature-block"><span class="check"></span></div><div class="feature-block"><span class="check"></span></div><div class="feature-block"><span class="check"></span></div><div class="feature-block"><span class="check"></span></div></div><div class="single-feature"><div class="feature-head"><img src="https://d33wubrfki0l68.cloudfront.net/56e1ef837a407e8a6442d56ade70f1d1f4f99fc2/361f7/img/indeed-logo.svg" alt="" class="indeed-logo-table" /></div><div class="feature-block"><span class="check"></span></div><div class="feature-block"><span class="check cross"></span></div><div class="feature-block"><span class="check cross"></span></div><div class="feature-block"><span class="check cross"></span></div><div class="feature-block"><span class="check cross"></span></div><div class="feature-block"><span class="check cross"></span></div><div class="feature-block"><span class="check"></span></div><div class="feature-block"><span class="check cross"></span></div><div class="feature-block"><span class="check"></span></div><div class="feature-block"><span class="check"></span></div><div class="feature-block"><span class="check "></span></div><div class="feature-block"><span class="check"></span></div><div class="feature-block"><span class="check"></span></div><div class="feature-block"><span class="check"></span></div></div></div></div></div></div></section><section class="testimonial"><div class="small-container"><div class="slick-slider slick-initialized" dir="ltr"><button type="button" data-role="none" class="slick-arrow slick-prev slick-disabled" style="display:block">< !-- -->Previous</button><div class="slick-list"><div class="slick-track" style="width:200%;left:0%"><div data-index="0" class="slick-slide slick-active slick-current" tabindex="-1" aria-hidden="false" style="outline:none;width:50%;position:relative;left:0;opacity:1;transition:opacity 1000ms ease, visibility 1000ms ease"><div><div tabindex="-1" style="width:100%;display:inline-block"><div class="testimonial-inner flex-row no-margin"><div class="testimonial-video-area"><video class="testimonial-video position-relative" src="https://d33wubrfki0l68.cloudfront.net/7ee23d6c2d6d3804d9663ac83f50ff475c6857cc/a9e51/video/testimonial-1.mp4" muted="" autoplay="" loop=""></video><button type="button" class="mute"><img src="https://d33wubrfki0l68.cloudfront.net/a417f77e9d48b6e17e49b4c4952f29cac14a7259/517bb/img/mute.svg" alt="" class="mute-button show" /><img src="https://d33wubrfki0l68.cloudfront.net/1af3b168c61080cfe7886227e28952b94078dc23/21a10/img/unmute.svg" alt="" class="mute-button " /></button><h5 class="yellow-heading">Merritt - Hackstone</h5></div><div class="testimonial-content-area"><div class="testimonial-content "><span class="big-gradient-circle gradient-anim red-gradient small-gradient"></span><span class="big-gradient-circle delay-1 gradient-anim green-gradient "></span><img src="https://d33wubrfki0l68.cloudfront.net/f797f9829593420e6335e63d45cc71ba85a4d78c/92d5a/img/apostrophe.svg" alt="" /><h5>ClipHire brings back what has been missing for so long in the recruitment process,
+in my opinion is the human connection. I love that you&#x27;
+re able to personalize videos as well as integrate so many other functions on the platform.</h5></div></div></div></div></div></div><div data-index="1" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline:none;width:50%;position:relative;left:-50px;opacity:0;transition:opacity 1000ms ease, visibility 1000ms ease"><div><div tabindex="-1" style="width:100%;display:inline-block"><div class="testimonial-inner flex-row no-margin"><div class="testimonial-video-area"><video class="testimonial-video position-relative" src="https://d33wubrfki0l68.cloudfront.net/52a94d8aa9ddb7f56a5df1f9d3901ea28962540e/6e253/video/testimonial-2.mp4" muted="" autoplay="" loop=""></video><button type="button" class="mute"><img src="https://d33wubrfki0l68.cloudfront.net/a417f77e9d48b6e17e49b4c4952f29cac14a7259/517bb/img/mute.svg" alt="" class="mute-button show" /><img src="https://d33wubrfki0l68.cloudfront.net/1af3b168c61080cfe7886227e28952b94078dc23/21a10/img/unmute.svg" alt="" class="mute-button " /></button><h5 class="yellow-heading">Molly - Wonsupona</h5></div><div class="testimonial-content-area"><div class="testimonial-content "><span class="big-gradient-circle gradient-anim red-gradient small-gradient"></span><span class="big-gradient-circle delay-1 gradient-anim green-gradient "></span><img src="https://d33wubrfki0l68.cloudfront.net/f797f9829593420e6335e63d45cc71ba85a4d78c/92d5a/img/apostrophe.svg" alt="" /><h5>The video platform is intuitive,
+easy to use and it makes it very simple to peer into the person behind the resume so that you can understand immediately is the person is going to be a great fit for your company.</h5></div></div></div></div></div></div></div></div><button type="button" data-role="none" class="slick-arrow slick-next" style="display:block">< !-- -->Next</button></div></div></section></div></main><nav class="footer"><div class="container "><div class="footer-content"><h3><div class="tilt-text">Ready to</div>Job-search smarter?<br/>We make it easy.</h3><a href="https://app.cliphire.co/auth/jobseeker/register" class="button">Get Started for Free</a></div><div class="footer-nav"><div class="top-footer flex-row col"><a aria-current="page" class="" href="/"><img src="https://d33wubrfki0l68.cloudfront.net/3e575ef9fc22da36085a39f512d50c8559cbe80d/e69d4/img/cliphire-logo-white.svg" alt="" /></a><a href="mailto:hello@cliphire.co" class="contact-us">Contact Us</a></div><div class="bottom-footer flex-row col"><div class="footer-links flex-row col"><a href="https://recruit.cliphire.co/" target="_blank">For Recruiters</a><a href="/privacy-policy">Privacy Policy</a><a href="/terms-of-service">Terms of Service</a><a href="/cookie-policy">Cookie Policy</a><a href="/acceptable-use-policy">Acceptable Use Policy</a><a href="/blog">Blog</a></div><div class="footer-logo"><a href="https://www.linkedin.com/company/clip-hire/" target="_blank" rel="noopener noreferrer"><img src="https://d33wubrfki0l68.cloudfront.net/b9f384d3213f3a7572f372a15dbe2a5ba668d48e/fff77/img/linkedin-logo-footer.svg" alt="linkedin" /></a><a href="https://www.facebook.com/cliphire" target="_blank" rel="noopener noreferrer"><img src="https://d33wubrfki0l68.cloudfront.net/7cb8c596a8cde21cd34880f76525b9188958a40f/cfc6c/img/facebook-logo.svg" alt="facebook" /></a><a href="https://twitter.com/Clip_Hire" target="_blank" rel="noopener noreferrer"><img src="https://d33wubrfki0l68.cloudfront.net/c18742ef77eebc4bfb9e87a1cbe76054011cd379/636c9/img/twitter-logo.svg" alt="twitter" /></a></div></div></div></div></nav></div><div id="x"></div></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script async="" src="https://www.googletagmanager.com/gtag/js?id=GTM-MGDK57K"></script><script>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moving Gradient</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            width: 100vw;
+            background: url('Leadgen-Rectangle-line-bg.png');
+            background-size: contain;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            -webkit-text-size-adjust: none;
+            box-sizing: border-box;
+            outline: none;
+        }
+
+        .container {
+            width:405px;
+            height: 700px;
+            border: 4px solid silver;
+            max-width:405px;
+            overflow: hidden;
+
+            position: relative;
+        }
+
+       .big-gradient-circle,
+       .small-stroke:before {
+            /* background-position: 50%; */
+            background-repeat: no-repeat;
+            position: absolute
+        }
+
+       .big-gradient-circle {
+            background-image: url("https://d33wubrfki0l68.cloudfront.net/064f0ed340615b39376af8402268c04b66f5eb13/73a8b/img/violet-gradient.svg");
+            background-size: cover;
+            height: 100vh;
+            width: 313px;
+            z-index: -1;
+        }
+
+       .big-gradient-circle.red-gradient {
+            /* background-image: url("https://d33wubrfki0l68.cloudfront.net/bed7e427a85e57669217f2a9d65175228ba4c97b/c86c8/img/red-gradient.svg") */
+            background: linear-gradient(180deg, rgba(210, 107, 84, 0.6) 3.91%, rgba(43, 61, 224, 0.6) 99.76%);
+            filter: blur(100px);
+            transform: rotate(-90deg);
+        }
+
+       .big-gradient-circle.gradient-anim {
+            animation: gradientAnim 5s linear infinite forwards
+        }
+
+        .delay-1 {
+            animation-delay: 1s
+        }
+
+        .delay-2 {
+            animation-delay: 2s
+        }
+
+        @keyframes gradientAnim {
+            from {
+                transform: rotate(0deg) translateX(240px) rotate(0deg)
+            }
+
+            to {
+                transform: rotate(1turn) translateX(240px) rotate(-1turn)
+            }
+        }
+
+        /*.big-gradient-circle.small-gradient {
+            background-image: url("https://d33wubrfki0l68.cloudfront.net/55054756e6702badb39b0beca2440d5b80aefef6/e5597/img/small-violet-gradient.svg");
+            height: 700px;
+            width: 700px
+        } */
+
+        /*.big-gradient-circle.green-gradient {
+            background-image: url("https://d33wubrfki0l68.cloudfront.net/b3491eaf7dabecf52633782bef78f295f4d2ab98/9d895/img/green-gradient.svg")
+        } */
+
+        /*.big-gradient-circle.green-gradient.small-gradient {
+            background-image: url("https://d33wubrfki0l68.cloudfront.net/a98e5691932aff84c73dd41b950da0c0829bdf11/5a91e/img/small-green-gradient.svg")
+        } */
+
+
+        /*.big-gradient-circle.red-gradient.small-gradient {
+            background-image: url("https://d33wubrfki0l68.cloudfront.net/09be5e3ce53798823c81fc13fe0bd3de5875dbef/fdeaa/img/small-red-gradient.svg")
+        } */
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <span class="big-gradient-circle gradient-anim red-gradient small-gradient"></span>
+    </div>
+</body>
+
+</html>
